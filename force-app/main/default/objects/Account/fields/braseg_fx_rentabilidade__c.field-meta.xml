@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>braseg_fx_rentabilidade__c</fullName>
+    <externalId>false</externalId>
+    <label>Faixa de Rentabilidade</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>&apos;&apos;</fullName>
+                <default>false</default>
+                <label>&apos;&apos;</label>
+            </value>
+            <value>
+                <fullName>00 - MENOR QUE -50</fullName>
+                <default>false</default>
+                <label>00 - MENOR QUE -50</label>
+            </value>
+            <value>
+                <fullName>01 - ENTRE -50.01 E -0,01</fullName>
+                <default>false</default>
+                <label>01 - ENTRE -50.01 E -0,01</label>
+            </value>
+            <value>
+                <fullName>01.1 - IGUAL A 0</fullName>
+                <default>false</default>
+                <label>01.1 - IGUAL A 0</label>
+            </value>
+            <value>
+                <fullName>02 - ENTRE 0,01 E 20</fullName>
+                <default>false</default>
+                <label>02 - ENTRE 0,01 E 20</label>
+            </value>
+            <value>
+                <fullName>03 - ENTRE 20,01 E 40</fullName>
+                <default>false</default>
+                <label>03 - ENTRE 20,01 E 40</label>
+            </value>
+            <value>
+                <fullName>04 - ENTRE 40,01 E 60</fullName>
+                <default>false</default>
+                <label>04 - ENTRE 40,01 E 60</label>
+            </value>
+            <value>
+                <fullName>05 - ENTRE 60,01 E 80</fullName>
+                <default>false</default>
+                <label>05 - ENTRE 60,01 E 80</label>
+            </value>
+            <value>
+                <fullName>06 - ENTRE 80,01 E 100</fullName>
+                <default>false</default>
+                <label>06 - ENTRE 80,01 E 100</label>
+            </value>
+            <value>
+                <fullName>07 - ENTRE 100,01 E 300</fullName>
+                <default>false</default>
+                <label>07 - ENTRE 100,01 E 300</label>
+            </value>
+            <value>
+                <fullName>08 - ENTRE 300,01 E 500</fullName>
+                <default>false</default>
+                <label>08 - ENTRE 300,01 E 500</label>
+            </value>
+            <value>
+                <fullName>09 - ENTRE 500,01 E 1000</fullName>
+                <default>false</default>
+                <label>09 - ENTRE 500,01 E 1000</label>
+            </value>
+            <value>
+                <fullName>10 - ENTRE 1000,01 E 2000</fullName>
+                <default>false</default>
+                <label>10 - ENTRE 1000,01 E 2000</label>
+            </value>
+            <value>
+                <fullName>11 - MAIOR QUE 2000</fullName>
+                <default>false</default>
+                <label>11 - MAIOR QUE 2000</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BRASEG_COMPACT_LAYOUT_INSURANCEPOLICY_CAPITALIZACAO</fullName>
+    <fields>NameInsuredId</fields>
+    <fields>braseg_cd_serie__c</fields>
+    <fields>braseg_nro_titulo__c</fields>
+    <fields>RecordTypeId</fields>
+    <fields>braseg_nm_status__c</fields>
+    <label>BRASEG_COMPACT_LAYOUT_INSURANCEPOLICY_CAPITALIZACAO</label>
+</CompactLayout>

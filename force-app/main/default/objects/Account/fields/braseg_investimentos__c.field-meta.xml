@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>braseg_investimentos__c</fullName>
+    <externalId>false</externalId>
+    <label>Investimento</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>&apos;&apos;</fullName>
+                <default>false</default>
+                <label>&apos;&apos;</label>
+            </value>
+            <value>
+                <fullName>01 - ATE R$ 1.000,00</fullName>
+                <default>false</default>
+                <label>01 - ATE R$ 1.000,00</label>
+            </value>
+            <value>
+                <fullName>02 - ATE R$ 5.000,00</fullName>
+                <default>false</default>
+                <label>02 - ATE R$ 5.000,00</label>
+            </value>
+            <value>
+                <fullName>03 - ATE R$ 10.000,00</fullName>
+                <default>false</default>
+                <label>03 - ATE R$ 10.000,00</label>
+            </value>
+            <value>
+                <fullName>04 - ATE R$ 20.000,00</fullName>
+                <default>false</default>
+                <label>04 - ATE R$ 20.000,00</label>
+            </value>
+            <value>
+                <fullName>05 - ATE R$ 30.000,00</fullName>
+                <default>false</default>
+                <label>05 - ATE R$ 30.000,00</label>
+            </value>
+            <value>
+                <fullName>06 - ATE R$ 40.000,00</fullName>
+                <default>false</default>
+                <label>06 - ATE R$ 40.000,00</label>
+            </value>
+            <value>
+                <fullName>07 - ATE R$ 50.000,00</fullName>
+                <default>false</default>
+                <label>07 - ATE R$ 50.000,00</label>
+            </value>
+            <value>
+                <fullName>07.1 - ATE R$ 80.000,00</fullName>
+                <default>false</default>
+                <label>07.1 - ATE R$ 80.000,00</label>
+            </value>
+            <value>
+                <fullName>08 - ATE R$ 100.000,00</fullName>
+                <default>false</default>
+                <label>08 - ATE R$ 100.000,00</label>
+            </value>
+            <value>
+                <fullName>08.1 - ATE R$ 130.000,00</fullName>
+                <default>false</default>
+                <label>08.1 - ATE R$ 130.000,00</label>
+            </value>
+            <value>
+                <fullName>09 - ATE R$ 500.000,00</fullName>
+                <default>false</default>
+                <label>09 - ATE R$ 500.000,00</label>
+            </value>
+            <value>
+                <fullName>10 - ATE R$ 1.000.000,00</fullName>
+                <default>false</default>
+                <label>10 - ATE R$ 1.000.000,00</label>
+            </value>
+            <value>
+                <fullName>11 - ATE R$ 2.000.000,00</fullName>
+                <default>false</default>
+                <label>11 - ATE R$ 2.000.000,00</label>
+            </value>
+            <value>
+                <fullName>12 - ATE R$ 3.000.000,00</fullName>
+                <default>false</default>
+                <label>12 - ATE R$ 3.000.000,00</label>
+            </value>
+            <value>
+                <fullName>13 - ATE R$ 4.000.000,00</fullName>
+                <default>false</default>
+                <label>13 - ATE R$ 4.000.000,00</label>
+            </value>
+            <value>
+                <fullName>14 - ATE R$ 5.000.000,00</fullName>
+                <default>false</default>
+                <label>14 - ATE R$ 5.000.000,00</label>
+            </value>
+            <value>
+                <fullName>15 - ACIMA DE R$ 5.000.000,00</fullName>
+                <default>false</default>
+                <label>15 - ACIMA DE R$ 5.000.000,00</label>
+            </value>
+            <value>
+                <fullName>99 - SEM INVESTIMENTO</fullName>
+                <default>false</default>
+                <label>99 - SEM INVESTIMENTO</label>
+            </value>
+            <value>
+                <fullName>08.1 - ATE R$ 150.000,00</fullName>
+                <default>false</default>
+                <label>08.1 - ATE R$ 150.000,00</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

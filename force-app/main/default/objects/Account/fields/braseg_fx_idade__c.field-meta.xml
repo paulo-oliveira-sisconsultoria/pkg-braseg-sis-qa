@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>braseg_fx_idade__c</fullName>
+    <externalId>false</externalId>
+    <label>Faixa de Idade</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>NULL</fullName>
+                <default>false</default>
+                <label>NULL</label>
+            </value>
+            <value>
+                <fullName>00 - NAO INFORMADO</fullName>
+                <default>false</default>
+                <label>00 - NAO INFORMADO</label>
+            </value>
+            <value>
+                <fullName>01 - MENOS DE 18 ANOS</fullName>
+                <default>false</default>
+                <label>01 - MENOS DE 18 ANOS</label>
+            </value>
+            <value>
+                <fullName>02 - ENTRE 18 E 25</fullName>
+                <default>false</default>
+                <label>02 - ENTRE 18 E 25</label>
+            </value>
+            <value>
+                <fullName>03 - ENTRE 26 E 35</fullName>
+                <default>false</default>
+                <label>03 - ENTRE 26 E 35</label>
+            </value>
+            <value>
+                <fullName>04 - ENTRE 36 E 45</fullName>
+                <default>false</default>
+                <label>04 - ENTRE 36 E 45</label>
+            </value>
+            <value>
+                <fullName>05 - ENTRE 46 E 55</fullName>
+                <default>false</default>
+                <label>05 - ENTRE 46 E 55</label>
+            </value>
+            <value>
+                <fullName>06 - ENTRE 56 E 65</fullName>
+                <default>false</default>
+                <label>06 - ENTRE 56 E 65</label>
+            </value>
+            <value>
+                <fullName>07 - ENTRE 66 E 75</fullName>
+                <default>false</default>
+                <label>07 - ENTRE 66 E 75</label>
+            </value>
+            <value>
+                <fullName>MAIS DE 75 ANOS</fullName>
+                <default>false</default>
+                <label>MAIS DE 75 ANOS</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

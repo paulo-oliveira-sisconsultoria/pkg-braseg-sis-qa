@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>braseg_perctrib__c</fullName>
+    <description>PERCENTUAL TRIBUTAVEL DA PROPOSTA E CODIGO DE BENEFICIO</description>
+    <externalId>false</externalId>
+    <inlineHelpText>PERCENTUAL TRIBUTAVEL DA PROPOSTA E CODIGO DE BENEFICIO</inlineHelpText>
+    <label>Percentual Tributavel</label>
+    <precision>7</precision>
+    <required>false</required>
+    <scale>4</scale>
+    <trackHistory>false</trackHistory>
+    <type>Percent</type>
+</CustomField>

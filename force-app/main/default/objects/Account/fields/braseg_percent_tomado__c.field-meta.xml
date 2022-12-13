@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>braseg_percent_tomado__c</fullName>
+    <externalId>false</externalId>
+    <label>Percentual Tomado</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>&apos;&apos;</fullName>
+                <default>false</default>
+                <label>&apos;&apos;</label>
+            </value>
+            <value>
+                <fullName>ENTRE 1% E 25%</fullName>
+                <default>false</default>
+                <label>ENTRE 1% E 25%</label>
+            </value>
+            <value>
+                <fullName>ENTRE 26% E 50%</fullName>
+                <default>false</default>
+                <label>ENTRE 26% E 50%</label>
+            </value>
+            <value>
+                <fullName>ENTRE 51% E 75%</fullName>
+                <default>false</default>
+                <label>ENTRE 51% E 75%</label>
+            </value>
+            <value>
+                <fullName>ENTRE 75% E 99%</fullName>
+                <default>false</default>
+                <label>ENTRE 75% E 99%</label>
+            </value>
+            <value>
+                <fullName>TOTALMENTE BRADESC</fullName>
+                <default>false</default>
+                <label>TOTALMENTE BRADESC</label>
+            </value>
+            <value>
+                <fullName>TOTALMENTE MERCADO</fullName>
+                <default>false</default>
+                <label>TOTALMENTE MERCADO</label>
+            </value>
+            <value>
+                <fullName>TOTALMENTE BRADESCO</fullName>
+                <default>false</default>
+                <label>TOTALMENTE BRADESCO</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

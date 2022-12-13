@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>braseg_Surcusal_Sao_Paulo</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>braseg_cpf_cnpj__c</columns>
+    <columns>braseg_Cargo__c</columns>
+    <columns>BRASEG_GerenteComercial__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>braseg_Sucursal__c</field>
+        <operation>equals</operation>
+        <value>São Paulo</value>
+    </filters>
+    <label>Surcusal São Paulo</label>
+    <sharedTo>
+        <territory>Comercial.LiderOperacao</territory>
+        <territory>Comercial.SP</territory>
+        <territory>Comercial.Superintendente</territory>
+    </sharedTo>
+</ListView>

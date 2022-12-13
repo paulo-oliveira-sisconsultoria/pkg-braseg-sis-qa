@@ -1,0 +1,3236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FinServ__IndustriesIndividual</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>BRASEG_COMPACT_LAYOUT_BUSINESS_ACCOUNT</compactLayoutAssignment>
+    <description>A person who is a prospect or a client</description>
+    <label>Individual</label>
+    <picklistValues>
+        <picklist>FinServ__BorrowingHistory__c</picklist>
+        <values>
+            <fullName>Excellent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Limited to No History</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Moderate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Poor</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>FinServ__BorrowingPriorities__c</picklist>
+        <values>
+            <fullName>Build Equity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Debt Consolidation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Education</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Investments</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Large Capital Purchases</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Property Purchase</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Renovations</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>FinServ__ClientCategory__c</picklist>
+        <values>
+            <fullName>Bronze</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Platinum</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Silver</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>FinServ__CustomerType__c</picklist>
+        <values>
+            <fullName>Borrower</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Investor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Relational</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transaction</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>FinServ__FinancialInterests__c</picklist>
+        <values>
+            <fullName>College Planning</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Energy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fixed Income</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Municipal Bonds</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retirement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Technology</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>FinServ__IndividualType__c</picklist>
+        <values>
+            <fullName>Individual</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>FinServ__InvestmentExperience__c</picklist>
+        <values>
+            <fullName>Experienced</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inexperienced</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Moderately Experienced</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Moderately Inexperienced</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>FinServ__InvestmentObjectives__c</picklist>
+        <values>
+            <fullName>Aggressive Growth</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Balanced</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Conservative Income</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Growth</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Income</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>FinServ__KYCStatus__c</picklist>
+        <values>
+            <fullName>Completed - Invalid</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Completed - Valid</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Expired</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Queue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Overdue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>FinServ__LastUsedChannel__c</picklist>
+        <values>
+            <fullName>Branch</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Call Center</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mobile</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>FinServ__MarketingSegment__c</picklist>
+        <values>
+            <fullName>Female Investor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>High Net Worth</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mass Affluent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Millennial</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>FinServ__PersonalInterests__c</picklist>
+        <values>
+            <fullName>Biking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>College Basketball</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cooking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Environment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hiking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wine</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>FinServ__ReviewFrequency__c</picklist>
+        <values>
+            <fullName>Annually</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Monthly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quarterly</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>FinServ__RiskTolerance__c</picklist>
+        <values>
+            <fullName>Aggressive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Conservative</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Moderate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>None</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>FinServ__ServiceModel__c</picklist>
+        <values>
+            <fullName>Tier 1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tier 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tier 3</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>FinServ__TimeHorizon__c</picklist>
+        <values>
+            <fullName>Long Term</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medium Term</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Short Term</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Industry</picklist>
+        <values>
+            <fullName>Agriculture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Apparel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Biotechnology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chemicals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Communications</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Construction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consulting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Education</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Electronics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Energy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Engineering</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Entertainment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Environmental</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Food %26 Beverage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Government</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Healthcare</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hospitality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Insurance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Machinery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manufacturing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Media</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not For Profit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recreation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shipping</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Technology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telecommunications</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transportation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Utilities</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Ownership</picklist>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Private</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Subsidiary</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Rating</picklist>
+        <values>
+            <fullName>Cold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warm</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prospect</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>braseg_Nome_da_Empresa__c</picklist>
+        <values>
+            <fullName>2B CAPITAL S%2EA%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ADC BRADESCO-ASSOC%2EDESPOR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AGORA COR%2ETIT%2EVLS%2EMOB%2ESA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ATLANTICA HOSP%2E PART%2E S%2EA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BANCO BRADESCARD S%2EA%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BANCO BRADESCO BBI S%2EA%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BANCO BRADESCO S%2EA%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BANCO LOSANGO S%2EA%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BCO%2E BRADESCO FINANC%2ES%2FA%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BF PROMOT%2EDE VENDAS LTDA%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BITZ SERVICOS FINANCEIROS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BRAD%2E AUTO RE CIA%2ESEGUROS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BRADESCO ADM%2ECONSORCIOS L</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BRADESCO CAPITALIZACAO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BRADESCO S%2EA%2E CTVM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BRADESCO SAUDE OP%2E PLANOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BRADESCO SAUDE S%2EA%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BRADESCO SEGUROS S%2EA%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BRADESCO VIDA E PREV%2ES%2EA%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BRADESCOR COR%2ESEGS%2E LTDA%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BRADESPAR S%2EA%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BRADSEG PARTICIPACOES S%2EA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BRAM BRADESCO ASSET MANAG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BSP AFFINITY LTDA%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BSP EMPREEND%2EIMOBIL%2E S%2EA%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bradesco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bradesco Seguros</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CIDADE DE DEUS CIAL%2EPART%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FIMADEN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FUNDACAO BRADESCO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MEDISERVICE OPERADORA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NEXT TECNOL SERV DIGITAIS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NOVAMED GESTAO DE CLINICA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SHOPFACIL SOL%2ECOM%2EELET%2ESA</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>braseg_Situacao_SAP__c</picklist>
+        <values>
+            <fullName>Afastado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ativo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inativo</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>braseg_canal_preferencia__c</picklist>
+        <values>
+            <fullName>%27%27</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AUTO ATENDIMENTO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAIXA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FONE FACIL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INTERNET BANKING</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MOBILE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SEM INFORMACAO</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>braseg_ds_origem__c</picklist>
+        <values>
+            <fullName>GLOBAL</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>braseg_estagio_relacionamento__c</picklist>
+        <values>
+            <fullName>%27%27</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ativacao</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reconquista</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rentabilizacao</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retencao</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>braseg_faixa_faturamento__c</picklist>
+        <values>
+            <fullName>%27%27</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Acima de 250 mm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Até R%24 60 Mil</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>De 15 mm até 30 mm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>De 150 mm até 250 mm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>De 240 mil até 360 mil</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>De 3%2C6 mm até 15 mm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>De 30 mm até 50 mm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>De 360 mil até 3%2C6 mm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>De 50 mm até 150 mm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>De 60 mil até 240 mil</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NULL</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>braseg_faixa_renda__c</picklist>
+        <values>
+            <fullName>%27%27</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>De R%24 0%2C01 a R%24 499%2C99</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>De R%24 1%2E000%2C00 a R%24 1%2E500%2C00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>De R%24 1%2E500%2C00 a R%24 2%2E000%2C00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>De R%24 2%2E000%2C00 a R%24 2%2E500%2C00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>De R%24 2%2E500%2C00 a R%24 3%2E000%2C00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>De R%24 3%2E000%2C00 a R%24 4%2E000%2C00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>De R%24 4%2E000%2C00 a R%24 5%2E000%2C00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>De R%24 5%2E000%2C00 a R%24 6%2E000%2C00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>De R%24 500 a R%24 999%2C99</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>De R%24 6%2E000%2C00 a R%24 7%2E000%2C00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>De R%24 7%2E000%2C00 a R%24 8%2E000%2C00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>De R%24 8%2E000%2C00 a R%24 9%2E000%2C00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>De R%24 9%2E000%2C00 a R%24 10%2E000%2C00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mais de R%24 10%2E000%2C00</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>braseg_fx_beneficio__c</picklist>
+        <values>
+            <fullName>%27%27</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ACIMA 10  SALARIO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ATE 2 SALARIO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ENTRE 3 E 5 SALARIO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ENTRE 5%2E1 E 10 SALARIO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NAO BENEFICIARIO</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>braseg_fx_funcionarios__c</picklist>
+        <values>
+            <fullName>%27%27</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Acima de 1000</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>De 1 a 5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>De 101 a 200</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>De 11 a 20</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>De 201 a 300</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>De 21 a 50</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>De 301 a 400</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>De 401 a 500</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>De 501 a 1000</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>De 51 a 100</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>De 6 a 10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NULL</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>braseg_fx_idade__c</picklist>
+        <values>
+            <fullName>00 - NAO INFORMADO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>01 - MENOS DE 18 ANOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>02 - ENTRE 18 E 25</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>03 - ENTRE 26 E 35</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>04 - ENTRE 36 E 45</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>05 - ENTRE 46 E 55</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>06 - ENTRE 56 E 65</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>07 - ENTRE 66 E 75</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MAIS DE 75 ANOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NULL</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>braseg_fx_relacionamento__c</picklist>
+        <values>
+            <fullName>%27%27</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>00 - ATE 2 ANOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>01 - ENTRE 3 E 5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>02 - ENTRE 6 E 15</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>03 - MAIS DE 15</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>braseg_fx_rentabilidade__c</picklist>
+        <values>
+            <fullName>%27%27</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>00 - MENOR QUE -50</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>01 - ENTRE -50%2E01 E -0%2C01</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>01%2E1 - IGUAL A 0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>02 - ENTRE 0%2C01 E 20</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>03 - ENTRE 20%2C01 E 40</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>04 - ENTRE 40%2C01 E 60</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>05 - ENTRE 60%2C01 E 80</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>06 - ENTRE 80%2C01 E 100</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>07 - ENTRE 100%2C01 E 300</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>08 - ENTRE 300%2C01 E 500</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>09 - ENTRE 500%2C01 E 1000</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10 - ENTRE 1000%2C01 E 2000</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>11 - MAIOR QUE 2000</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>braseg_investimentos__c</picklist>
+        <values>
+            <fullName>%27%27</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>01 - ATE R%24 1%2E000%2C00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>02 - ATE R%24 5%2E000%2C00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>03 - ATE R%24 10%2E000%2C00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>04 - ATE R%24 20%2E000%2C00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>05 - ATE R%24 30%2E000%2C00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>06 - ATE R%24 40%2E000%2C00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>07 - ATE R%24 50%2E000%2C00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>07%2E1 - ATE R%24 80%2E000%2C00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>08 - ATE R%24 100%2E000%2C00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>08%2E1 - ATE R%24 130%2E000%2C00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>08%2E1 - ATE R%24 150%2E000%2C00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>09 - ATE R%24 500%2E000%2C00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10 - ATE R%24 1%2E000%2E000%2C00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>11 - ATE R%24 2%2E000%2E000%2C00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>12 - ATE R%24 3%2E000%2E000%2C00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>13 - ATE R%24 4%2E000%2E000%2C00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>14 - ATE R%24 5%2E000%2E000%2C00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15 - ACIMA DE R%24 5%2E000%2E000%2C00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>99 - SEM INVESTIMENTO</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>braseg_percent_tomado__c</picklist>
+        <values>
+            <fullName>%27%27</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ENTRE 1%25 E 25%25</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ENTRE 26%25 E 50%25</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ENTRE 51%25 E 75%25</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ENTRE 75%25 E 99%25</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TOTALMENTE BRADESC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TOTALMENTE MERCADO</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>braseg_porte_empesa__c</picklist>
+        <values>
+            <fullName>%27%27</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grande</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Micro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Média</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NULL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pequena</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>braseg_prob_funcionamento__c</picklist>
+        <values>
+            <fullName>ALTA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BAIXA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MÉDIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NULL</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>braseg_resposabilidade__c</picklist>
+        <values>
+            <fullName>%27%27</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>00 - ATE R%24 500%2C00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>01 - ATE R%24 1%2E000%2C00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>02 - ATE R%24 5%2E000%2C00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>03 - ATE R%24 10%2E000%2C00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>04 - ATE R%24 20%2E000%2C00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>05 - ATE R%24 30%2E000%2C00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>06 - ATE R%24 40%2E000%2C00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>07 - ATE R%24 50%2E000%2C00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>08 - ATE R%24 100%2E000%2C00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>09 - ACIMA DE R%24 100%2E000%2C00</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>99 - SEM RESPONSABILIDADE</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>braseg_situacao_cadastral__c</picklist>
+        <values>
+            <fullName>ATIVA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ATIVA - EMPRESA DOMICILIADA NO EXTERIOR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BAIXADA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INAPTA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NULA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NULL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SUSPENSA</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>braseg_status_cpf_cnpj__c</picklist>
+        <values>
+            <fullName>%27%27</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CANCELADA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NULA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PENDENTE DE REGULARIZAÇÃO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>REGULAR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SUSPENSA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TITULAR FALECIDO</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>braseg_tp_logradouro__c</picklist>
+        <values>
+            <fullName>1 A TV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1 AT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1 AV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1 PAR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1 R</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1 SUB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1 TV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1 VL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10 R</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10 TV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10A TRAVES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10A TV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10ª R</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>11 R</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>11A R</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>11A TV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>12 R</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>12A R</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>12A TV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>13 TV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>13A TV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>14A TV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15 TV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15A TV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>16A TV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>17 TV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>17A TV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>18A TV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>19 TV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>19A TV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1A LD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1A PAR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1A PARALEL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1A RUA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1A SUB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1A TRAVESS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1A TV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1A VL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1O AT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1ª AV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1ª R</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2 AV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2 R</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2 SUB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2 TV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2 VL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>21A TV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2A AL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2A AVENIDA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2A LD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2A PAR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2A RUA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2A SUB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2A TRAVESS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2A TV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2A VL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2O AT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2O BC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2ª AV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2ª R</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3 AV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3 R</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3 SUB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3 TV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3 VL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3A AVENIDA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3A LD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3A PAR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3A RUA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3A SUB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3A TRAVESS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3A TV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3A VL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3O AT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3ª AV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3ª R</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4 AV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4 R</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4 SUB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4 TV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4 VL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4A PAR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4A SUB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4A TRAVESS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4A TV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4A VL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4O AT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4ª AV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4ª R</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4ª SUBIDA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5 R</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5 SUB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5 TV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5 VL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5A R</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5A SUB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5A TRAVESS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5A TV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5A VL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5O AT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5ª AV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6 R</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6 SUB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6 TV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6A R</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6A SUBIDA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6A TV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6ª AV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7 AV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7 R</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7 TV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7A AV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7A TV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7ª R</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8 AV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8 R</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8 TV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8A AV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8A R</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8A TV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9 R</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9 TV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9A TRAVESS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9A TV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9ª R</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>A</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>A VERDE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AC LOC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ACAMP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ACAMPAMENTO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ACESSO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ACESSO LOC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ACP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ACS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ADRO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AEROPORTO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ALAMEDA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ALTO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AN VR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ANT EST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ANT ETC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AREA ESPEC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ART</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ARTERIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ATALHO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ATL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AV CONT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AV INT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AV LIG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AV LIT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AV MARG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AV MARG PM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AV MARGINA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AV PERIMET</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AV VELHA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AVENIDA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AVENIDA CO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AVENIDA PE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AVNIDA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AVNIDANIDA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BAIXA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BALAO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BCO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BECO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BELV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BLO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BLOCO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BLV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BOSQUE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BOULEVARD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BSQ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BURACO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BVD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAIS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CALC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CALCADA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAM DE SRV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAM SERV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAMINHO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAMPO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CANAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CHACARA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CHAP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CICL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CIR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CIRC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CIRCULAR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CJ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CJ HAB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CJ RES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CMP VR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>COL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>COLONIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>COM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CON</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>COND</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>COND RES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CONDOMINIO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CONJUNTO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CONT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>COR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CORREDOR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CORREGO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>COX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CPO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CPUS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CRG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CRO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CXP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CZTO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DESCIDA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DESVIO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DISTR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DSC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DSV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EIXO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ENT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ENT PART</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ENTO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ENTRE QD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EQ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ESC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ESCA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ESCAD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ESCADA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ESCADARIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ESP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ESPL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ESPLANADA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ESQ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EST ANT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EST DE FER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EST DE SRV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EST ESTADU</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EST ESTD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EST FER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EST GERAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EST INTERM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EST LIG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EST MUN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EST MUNICI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EST NV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EST PART</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EST SRV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EST VIC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EST VL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ESTACAO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ESTADIO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ESTC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ESTR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ESTRADA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ESTRADA AN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ESTRADA VE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ESTRADA VI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ETA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ETC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ETD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ETP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EX PRINC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FAV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FAVELA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FAZ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FEIRA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FERROVIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FLT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FNT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FONTE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FORTE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FRA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GALERIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GJ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GJA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GLB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GLR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GRANJA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HAB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ILHA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JARDIM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JARDINETE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JD RES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LAD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LAG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LAGOA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LARGO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LGA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LGO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOTEAMENTO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LRG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MARG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MARGINAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MERC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MNA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MOD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MODULO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MONTE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MORRO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MRO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MTE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NUC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NUC HAB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NUC RUR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NUC RURAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NUCLEO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NULL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NV AV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OIT TV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OUT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PAR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PARADA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PARALELA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PARQUE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PARQUE RESIDENCIAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PAS PUB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PASSAGEM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PASSARELA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PASSEIO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PAT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PATIO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PC ROT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PCO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PDA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PDO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PNT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PONTE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>POR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PORTO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>POV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRACA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRAIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PROLONGAME</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PROLONGAMENTO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRQ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRQ ECO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRQ ECOLOG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRQ MUN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRQ RES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PSG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PSG PED</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PSO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PSR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PTE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PTO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PÇ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Q</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QTA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QUADRA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QUINTA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>R</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>R DE LIGACAO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>R LIG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>R PART</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>R PARTICULAR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>R PED</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>R PRINC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>R PROJ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>R VEL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>R VIC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>R VL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RAM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RAMAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RAMPA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RANCH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RCH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RCHO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RDV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>REC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RECANTO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RESIDENCIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RESIDENCIAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RET</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RETA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RETIRO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RETORNO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RMP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ROD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RODOVIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ROT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ROTATORIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RTT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RUA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RUA DE LIG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RUA DE PED</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RUA PARTIC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RUA PRINCI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RUA PROJET</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SEBASTIA%C2%A3O</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SERVIDAO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SETOR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SIT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SMPW</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SRV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SRV DE PSG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SRV PSG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SUB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SUBIDA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TERMINAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TRAV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TRAVESSA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TRECHO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TREVO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TRV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TUN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TV PART</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TV PARTICU</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TV ROD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UNID</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UNIDADE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>V</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>V AC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>V COLET</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>V COST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>V EXP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>V LOC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>V MARG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>V PED</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>V PEDS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>V PRINC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VALA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VALE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VAR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VEL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VEREDA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VIA DE ACE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VIA DE PED</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VIA LOCAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VIADUTO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VIC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VIELA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VILA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VLA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VLE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VRTE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ZIG ZAG</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

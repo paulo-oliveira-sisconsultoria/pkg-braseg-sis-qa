@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_Edicao_de_Campos_PJ</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+NOT(IsPersonAccount),
+NOT(ISNEW()),
+OR(
+ISCHANGED(Name),
+ISCHANGED(FinServ__Citizenship__pc),
+ISCHANGED(FinServ__Occupation__pc),
+ISCHANGED(FinServ__MaritalStatus__pc),
+ISCHANGED(braseg_cpf_cnpj__c),
+ISCHANGED(FinServ__Gender__pc),
+ISCHANGED(PersonBirthdate),
+ISCHANGED(Phone),
+ISCHANGED(PersonEmail),
+ISCHANGED(braseg_fl_prod_correntista_ativo__c),
+ISCHANGED(FinServ__CustomerSegment__c),
+ISCHANGED(braseg_agencia__c),
+ISCHANGED(braseg_conta__c),
+ISCHANGED(braseg_ds_principalidade__pc),
+ISCHANGED(brasdg_perfil_api__pc),
+ISCHANGED(braseg_fl_prod_capi__c),
+ISCHANGED(braseg_fl_prod_auto__c),
+ISCHANGED(braseg_fl_prod_re__c),
+ISCHANGED(braseg_fl_prod_residencial__c),
+ISCHANGED(braseg_fl_prod_saude__c),
+ISCHANGED(braseg_fl_prod_dental_empresarial__c),
+ISCHANGED(braseg_fl_prod_vida__c),
+ISCHANGED(braseg_fl_prod_prestamista__c),
+ISCHANGED(braseg_fl_prod_previ__c),
+ISCHANGED(braseg_cartao__c),
+ISCHANGED(braseg_status_cpf_cnpj__c),
+ISCHANGED(BillingAddress),
+ISCHANGED(braseg_fl_prod_dental__c),
+ISCHANGED(PersonHomePhone),
+ISCHANGED(PersonMobilePhone)
+),
+OR ($Profile.Name = &apos;Base Comercial&apos;, $Profile.Name = &apos;Corretor&apos;, $Profile.Name = &apos;Corretor Mercado&apos;)
+)</errorConditionFormula>
+    <errorMessage>Não é permitido editar nenhum campo.</errorMessage>
+</ValidationRule>

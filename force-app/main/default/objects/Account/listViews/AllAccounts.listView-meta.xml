@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AllAccounts</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>braseg_Status__c</columns>
+    <columns>braseg_cpf_cnpj__c</columns>
+    <columns>FinServ__CustomerSegment__c</columns>
+    <columns>PC_PHONE4</columns>
+    <filterScope>Everything</filterScope>
+    <label>Todos os Clientes</label>
+</ListView>

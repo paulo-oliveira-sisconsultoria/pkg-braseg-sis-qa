@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_InsurancePolicies</fullName>
+    <columns>RecordType</columns>
+    <columns>Name</columns>
+    <columns>braseg_matr_holding__c</columns>
+    <columns>NameInsured</columns>
+    <columns>braseg_matr_empresa__c</columns>
+    <columns>Nome_empresa__c</columns>
+    <columns>Status</columns>
+    <filterScope>Everything</filterScope>
+    <label>Todas as Apólices de Seguros</label>
+</ListView>

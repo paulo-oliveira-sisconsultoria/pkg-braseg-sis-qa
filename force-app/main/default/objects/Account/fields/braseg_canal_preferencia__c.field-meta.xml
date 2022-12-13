@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>braseg_canal_preferencia__c</fullName>
+    <externalId>false</externalId>
+    <label>Canal Preferencia</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>&apos;&apos;</fullName>
+                <default>false</default>
+                <label>&apos;&apos;</label>
+            </value>
+            <value>
+                <fullName>AUTO ATENDIMENTO</fullName>
+                <default>false</default>
+                <label>AUTO ATENDIMENTO</label>
+            </value>
+            <value>
+                <fullName>CAIXA</fullName>
+                <default>false</default>
+                <label>CAIXA</label>
+            </value>
+            <value>
+                <fullName>FONE FACIL</fullName>
+                <default>false</default>
+                <label>FONE FACIL</label>
+            </value>
+            <value>
+                <fullName>INTERNET BANKING</fullName>
+                <default>false</default>
+                <label>INTERNET BANKING</label>
+            </value>
+            <value>
+                <fullName>MOBILE</fullName>
+                <default>false</default>
+                <label>MOBILE</label>
+            </value>
+            <value>
+                <fullName>SEM INFORMACAO</fullName>
+                <default>false</default>
+                <label>SEM INFORMACAO</label>
+            </value>
+            <value>
+                <fullName>EXPRESSO</fullName>
+                <default>false</default>
+                <label>EXPRESSO</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BRASEG_COMPACT_LAYOUT_INSURANCEPOLICYPARTICIPANT_PREV_ARCOR</fullName>
+    <fields>braseg_nr_proposta__c</fields>
+    <fields>braseg_nm_holding__c</fields>
+    <fields>braseg_nm_empresa__c</fields>
+    <label>BRASEG_COMPACT_LAYOUT_INSURANCEPOLICYPARTICIPANT_PREV_ARCOR</label>
+</CompactLayout>

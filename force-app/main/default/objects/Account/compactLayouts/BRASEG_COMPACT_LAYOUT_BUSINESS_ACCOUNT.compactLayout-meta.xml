@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BRASEG_COMPACT_LAYOUT_BUSINESS_ACCOUNT</fullName>
+    <fields>braseg_nome_master__c</fields>
+    <fields>braseg_cpf_cnpj__c</fields>
+    <fields>braseg_situacao_cadastral__c</fields>
+    <label>BRASEG_COMPACT_LAYOUT_BUSINESS_ACCOUNT</label>
+</CompactLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>braseg_fx_beneficio__c</fullName>
+    <externalId>false</externalId>
+    <label>Faixa de Benefício</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>&apos;&apos;</fullName>
+                <default>false</default>
+                <label>&apos;&apos;</label>
+            </value>
+            <value>
+                <fullName>ACIMA 10  SALARIO</fullName>
+                <default>false</default>
+                <label>ACIMA 10  SALARIO</label>
+            </value>
+            <value>
+                <fullName>ATE 2 SALARIO</fullName>
+                <default>false</default>
+                <label>ATE 2 SALARIO</label>
+            </value>
+            <value>
+                <fullName>ENTRE 3 E 5 SALARIO</fullName>
+                <default>false</default>
+                <label>ENTRE 3 E 5 SALARIO</label>
+            </value>
+            <value>
+                <fullName>ENTRE 5.1 E 10 SALARIO</fullName>
+                <default>false</default>
+                <label>ENTRE 5.1 E 10 SALARIO</label>
+            </value>
+            <value>
+                <fullName>NAO BENEFICIARIO</fullName>
+                <default>false</default>
+                <label>NAO BENEFICIARIO</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

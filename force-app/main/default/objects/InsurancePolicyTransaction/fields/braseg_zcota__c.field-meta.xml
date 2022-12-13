@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>braseg_zcota__c</fullName>
+    <description>VALOR COTA DO DIA</description>
+    <externalId>false</externalId>
+    <inlineHelpText>VALOR COTA DO DIA</inlineHelpText>
+    <label>Valor Cota Dia</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>8</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

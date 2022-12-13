@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>braseg_Nome_da_Empresa__c</fullName>
+    <externalId>false</externalId>
+    <label>Nome da Empresa</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Bradesco</fullName>
+                <default>false</default>
+                <label>Bradesco</label>
+            </value>
+            <value>
+                <fullName>Bradesco Seguros</fullName>
+                <default>false</default>
+                <label>Bradesco Seguros</label>
+            </value>
+            <value>
+                <fullName>2B CAPITAL S.A.</fullName>
+                <default>false</default>
+                <label>2B CAPITAL S.A.</label>
+            </value>
+            <value>
+                <fullName>ADC BRADESCO-ASSOC.DESPOR</fullName>
+                <default>false</default>
+                <label>ADC BRADESCO-ASSOC.DESPOR</label>
+            </value>
+            <value>
+                <fullName>AGORA COR.TIT.VLS.MOB.SA</fullName>
+                <default>false</default>
+                <label>AGORA COR.TIT.VLS.MOB.SA</label>
+            </value>
+            <value>
+                <fullName>ATLANTICA HOSP. PART. S.A</fullName>
+                <default>false</default>
+                <label>ATLANTICA HOSP. PART. S.A</label>
+            </value>
+            <value>
+                <fullName>BANCO BRADESCARD S.A.</fullName>
+                <default>false</default>
+                <label>BANCO BRADESCARD S.A.</label>
+            </value>
+            <value>
+                <fullName>BANCO BRADESCO BBI S.A.</fullName>
+                <default>false</default>
+                <label>BANCO BRADESCO BBI S.A.</label>
+            </value>
+            <value>
+                <fullName>BANCO BRADESCO S.A.</fullName>
+                <default>false</default>
+                <label>BANCO BRADESCO S.A.</label>
+            </value>
+            <value>
+                <fullName>BANCO LOSANGO S.A.</fullName>
+                <default>false</default>
+                <label>BANCO LOSANGO S.A.</label>
+            </value>
+            <value>
+                <fullName>BCO. BRADESCO FINANC.S/A.</fullName>
+                <default>false</default>
+                <label>BCO. BRADESCO FINANC.S/A.</label>
+            </value>
+            <value>
+                <fullName>BF PROMOT.DE VENDAS LTDA.</fullName>
+                <default>false</default>
+                <label>BF PROMOT.DE VENDAS LTDA.</label>
+            </value>
+            <value>
+                <fullName>BITZ SERVICOS FINANCEIROS</fullName>
+                <default>false</default>
+                <label>BITZ SERVICOS FINANCEIROS</label>
+            </value>
+            <value>
+                <fullName>BRAD. AUTO RE CIA.SEGUROS</fullName>
+                <default>false</default>
+                <label>BRAD. AUTO RE CIA.SEGUROS</label>
+            </value>
+            <value>
+                <fullName>BRADESCO ADM.CONSORCIOS L</fullName>
+                <default>false</default>
+                <label>BRADESCO ADM.CONSORCIOS L</label>
+            </value>
+            <value>
+                <fullName>BRADESCO CAPITALIZACAO</fullName>
+                <default>false</default>
+                <label>BRADESCO CAPITALIZACAO</label>
+            </value>
+            <value>
+                <fullName>BRADESCO S.A. CTVM</fullName>
+                <default>false</default>
+                <label>BRADESCO S.A. CTVM</label>
+            </value>
+            <value>
+                <fullName>BRADESCO SAUDE OP. PLANOS</fullName>
+                <default>false</default>
+                <label>BRADESCO SAUDE OP. PLANOS</label>
+            </value>
+            <value>
+                <fullName>BRADESCO SAUDE S.A.</fullName>
+                <default>false</default>
+                <label>BRADESCO SAUDE S.A.</label>
+            </value>
+            <value>
+                <fullName>BRADESCO SEGUROS S.A.</fullName>
+                <default>false</default>
+                <label>BRADESCO SEGUROS S.A.</label>
+            </value>
+            <value>
+                <fullName>BRADESCO VIDA E PREV.S.A.</fullName>
+                <default>false</default>
+                <label>BRADESCO VIDA E PREV.S.A.</label>
+            </value>
+            <value>
+                <fullName>BRADESCOR COR.SEGS. LTDA.</fullName>
+                <default>false</default>
+                <label>BRADESCOR COR.SEGS. LTDA.</label>
+            </value>
+            <value>
+                <fullName>BRADESPAR S.A.</fullName>
+                <default>false</default>
+                <label>BRADESPAR S.A.</label>
+            </value>
+            <value>
+                <fullName>BRADSEG PARTICIPACOES S.A</fullName>
+                <default>false</default>
+                <label>BRADSEG PARTICIPACOES S.A</label>
+            </value>
+            <value>
+                <fullName>BRAM BRADESCO ASSET MANAG</fullName>
+                <default>false</default>
+                <label>BRAM BRADESCO ASSET MANAG</label>
+            </value>
+            <value>
+                <fullName>BSP AFFINITY LTDA.</fullName>
+                <default>false</default>
+                <label>BSP AFFINITY LTDA.</label>
+            </value>
+            <value>
+                <fullName>BSP EMPREEND.IMOBIL. S.A.</fullName>
+                <default>false</default>
+                <label>BSP EMPREEND.IMOBIL. S.A.</label>
+            </value>
+            <value>
+                <fullName>CIDADE DE DEUS CIAL.PART.</fullName>
+                <default>false</default>
+                <label>CIDADE DE DEUS CIAL.PART.</label>
+            </value>
+            <value>
+                <fullName>FIMADEN</fullName>
+                <default>false</default>
+                <label>FIMADEN</label>
+            </value>
+            <value>
+                <fullName>FUNDACAO BRADESCO</fullName>
+                <default>false</default>
+                <label>FUNDACAO BRADESCO</label>
+            </value>
+            <value>
+                <fullName>MEDISERVICE OPERADORA</fullName>
+                <default>false</default>
+                <label>MEDISERVICE OPERADORA</label>
+            </value>
+            <value>
+                <fullName>NEXT TECNOL SERV DIGITAIS</fullName>
+                <default>false</default>
+                <label>NEXT TECNOL SERV DIGITAIS</label>
+            </value>
+            <value>
+                <fullName>NOVAMED GESTAO DE CLINICA</fullName>
+                <default>false</default>
+                <label>NOVAMED GESTAO DE CLINICA</label>
+            </value>
+            <value>
+                <fullName>SHOPFACIL SOL.COM.ELET.SA</fullName>
+                <default>false</default>
+                <label>SHOPFACIL SOL.COM.ELET.SA</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

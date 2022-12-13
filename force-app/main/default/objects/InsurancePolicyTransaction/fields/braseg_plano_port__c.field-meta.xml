@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>braseg_plano_port__c</fullName>
+    <description>Planos PGBL, FGB ou VGBL. (Empresariais e / ou Corporate)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Planos PGBL, FGB ou VGBL. (Empresariais e / ou Corporate)</inlineHelpText>
+    <label>Plano Portabilidade</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>FBG</fullName>
+                <default>false</default>
+                <label>FBG</label>
+            </value>
+            <value>
+                <fullName>HPC</fullName>
+                <default>false</default>
+                <label>HPC</label>
+            </value>
+            <value>
+                <fullName>HVC</fullName>
+                <default>false</default>
+                <label>HVC</label>
+            </value>
+            <value>
+                <fullName>PEM</fullName>
+                <default>false</default>
+                <label>PEM</label>
+            </value>
+            <value>
+                <fullName>VGC</fullName>
+                <default>false</default>
+                <label>VGC</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

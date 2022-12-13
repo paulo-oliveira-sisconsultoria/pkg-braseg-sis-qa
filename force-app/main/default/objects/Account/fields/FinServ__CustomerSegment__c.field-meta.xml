@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FinServ__CustomerSegment__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Customer Segment</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Classic</fullName>
+                <default>false</default>
+                <label>Classic</label>
+            </value>
+            <value>
+                <fullName>Correntista Inativo</fullName>
+                <default>false</default>
+                <label>Correntista Inativo</label>
+            </value>
+            <value>
+                <fullName>Exclusive</fullName>
+                <default>false</default>
+                <label>Exclusive</label>
+            </value>
+            <value>
+                <fullName>Não-correntista</fullName>
+                <default>false</default>
+                <label>Não-correntista</label>
+            </value>
+            <value>
+                <fullName>Prime</fullName>
+                <default>false</default>
+                <label>Prime</label>
+            </value>
+            <value>
+                <fullName>Private</fullName>
+                <default>false</default>
+                <label>Private</label>
+            </value>
+            <value>
+                <fullName>Private PF</fullName>
+                <default>false</default>
+                <label>Private PF</label>
+            </value>
+            <value>
+                <fullName>Top Tier</fullName>
+                <default>false</default>
+                <label>Top Tier</label>
+            </value>
+            <value>
+                <fullName>Corporate</fullName>
+                <default>false</default>
+                <label>Corporate</label>
+            </value>
+            <value>
+                <fullName>Corporate One</fullName>
+                <default>false</default>
+                <label>Corporate One</label>
+            </value>
+            <value>
+                <fullName>Empresas e Negócios</fullName>
+                <default>false</default>
+                <label>Empresas e Negócios</label>
+            </value>
+            <value>
+                <fullName>Large Corporate</fullName>
+                <default>false</default>
+                <label>Large Corporate</label>
+            </value>
+            <value>
+                <fullName>Não Segmentado</fullName>
+                <default>false</default>
+                <label>Não Segmentado</label>
+            </value>
+            <value>
+                <fullName>Sem Descricao</fullName>
+                <default>false</default>
+                <label>Sem Descricao</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

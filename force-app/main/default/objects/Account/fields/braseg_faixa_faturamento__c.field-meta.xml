@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>braseg_faixa_faturamento__c</fullName>
+    <externalId>false</externalId>
+    <label>Faixa Faturamento</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>NULL</fullName>
+                <default>false</default>
+                <label>NULL</label>
+            </value>
+            <value>
+                <fullName>&apos;&apos;</fullName>
+                <default>false</default>
+                <label>&apos;&apos;</label>
+            </value>
+            <value>
+                <fullName>Acima de 250 mm</fullName>
+                <default>false</default>
+                <label>Acima de 250 mm</label>
+            </value>
+            <value>
+                <fullName>Até R$ 60 Mil</fullName>
+                <default>false</default>
+                <label>Até R$ 60 Mil</label>
+            </value>
+            <value>
+                <fullName>De 15 mm até 30 mm</fullName>
+                <default>false</default>
+                <label>De 15 mm até 30 mm</label>
+            </value>
+            <value>
+                <fullName>De 150 mm até 250 mm</fullName>
+                <default>false</default>
+                <label>De 150 mm até 250 mm</label>
+            </value>
+            <value>
+                <fullName>De 240 mil até 360 mil</fullName>
+                <default>false</default>
+                <label>De 240 mil até 360 mil</label>
+            </value>
+            <value>
+                <fullName>De 3,6 mm até 15 mm</fullName>
+                <default>false</default>
+                <label>De 3,6 mm até 15 mm</label>
+            </value>
+            <value>
+                <fullName>De 30 mm até 50 mm</fullName>
+                <default>false</default>
+                <label>De 30 mm até 50 mm</label>
+            </value>
+            <value>
+                <fullName>De 360 mil até 3,6 mm</fullName>
+                <default>false</default>
+                <label>De 360 mil até 3,6 mm</label>
+            </value>
+            <value>
+                <fullName>De 50 mm até 150 mm</fullName>
+                <default>false</default>
+                <label>De 50 mm até 150 mm</label>
+            </value>
+            <value>
+                <fullName>De 60 mil até 240 mil</fullName>
+                <default>false</default>
+                <label>De 60 mil até 240 mil</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

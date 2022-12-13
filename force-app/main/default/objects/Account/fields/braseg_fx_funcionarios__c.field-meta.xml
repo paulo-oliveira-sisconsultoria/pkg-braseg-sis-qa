@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>braseg_fx_funcionarios__c</fullName>
+    <externalId>false</externalId>
+    <label>Faixa de Funcionarios</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>NULL</fullName>
+                <default>false</default>
+                <label>NULL</label>
+            </value>
+            <value>
+                <fullName>&apos;&apos;</fullName>
+                <default>false</default>
+                <label>&apos;&apos;</label>
+            </value>
+            <value>
+                <fullName>Acima de 1000</fullName>
+                <default>false</default>
+                <label>Acima de 1000</label>
+            </value>
+            <value>
+                <fullName>De 1 a 5</fullName>
+                <default>false</default>
+                <label>De 1 a 5</label>
+            </value>
+            <value>
+                <fullName>De 101 a 200</fullName>
+                <default>false</default>
+                <label>De 101 a 200</label>
+            </value>
+            <value>
+                <fullName>De 11 a 20</fullName>
+                <default>false</default>
+                <label>De 11 a 20</label>
+            </value>
+            <value>
+                <fullName>De 201 a 300</fullName>
+                <default>false</default>
+                <label>De 201 a 300</label>
+            </value>
+            <value>
+                <fullName>De 21 a 50</fullName>
+                <default>false</default>
+                <label>De 21 a 50</label>
+            </value>
+            <value>
+                <fullName>De 301 a 400</fullName>
+                <default>false</default>
+                <label>De 301 a 400</label>
+            </value>
+            <value>
+                <fullName>De 401 a 500</fullName>
+                <default>false</default>
+                <label>De 401 a 500</label>
+            </value>
+            <value>
+                <fullName>De 501 a 1000</fullName>
+                <default>false</default>
+                <label>De 501 a 1000</label>
+            </value>
+            <value>
+                <fullName>De 51 a 100</fullName>
+                <default>false</default>
+                <label>De 51 a 100</label>
+            </value>
+            <value>
+                <fullName>De 6 a 10</fullName>
+                <default>false</default>
+                <label>De 6 a 10</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

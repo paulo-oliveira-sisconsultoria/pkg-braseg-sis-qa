@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>braseg_status_cpf_cnpj__c</fullName>
+    <externalId>false</externalId>
+    <label>Situação</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>&apos;&apos;</fullName>
+                <default>false</default>
+                <label>&apos;&apos;</label>
+            </value>
+            <value>
+                <fullName>CANCELADA</fullName>
+                <default>false</default>
+                <label>CANCELADA</label>
+            </value>
+            <value>
+                <fullName>NULA</fullName>
+                <default>false</default>
+                <label>NULA</label>
+            </value>
+            <value>
+                <fullName>PENDENTE DE REGULARIZAÇÃO</fullName>
+                <default>false</default>
+                <label>PENDENTE DE REGULARIZAÇÃO</label>
+            </value>
+            <value>
+                <fullName>REGULAR</fullName>
+                <default>false</default>
+                <label>REGULAR</label>
+            </value>
+            <value>
+                <fullName>SUSPENSA</fullName>
+                <default>false</default>
+                <label>SUSPENSA</label>
+            </value>
+            <value>
+                <fullName>TITULAR FALECIDO</fullName>
+                <default>false</default>
+                <label>TITULAR FALECIDO</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

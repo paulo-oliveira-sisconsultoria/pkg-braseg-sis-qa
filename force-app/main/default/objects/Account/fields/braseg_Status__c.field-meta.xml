@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>braseg_Status__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(ISPICKVAL(FinServ__Status__c , &apos;Ativo&apos;),&apos;Cliente Ativo&apos;,
+			IF(ISPICKVAL(FinServ__Status__c , &apos;Inativo&apos;),&apos;Cliente Inativo&apos;,
+					IF(ISPICKVAL(FinServ__Status__c , &apos;Prospect/Lead&apos;),&apos;Cliente Lead&apos;,&apos;&apos;)))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Status Cliente</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

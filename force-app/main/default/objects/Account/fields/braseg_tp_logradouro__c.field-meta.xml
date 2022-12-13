@@ -1,0 +1,2412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>braseg_tp_logradouro__c</fullName>
+    <externalId>false</externalId>
+    <label>Tipo Logradouro</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1 PAR</fullName>
+                <default>false</default>
+                <label>1 PAR</label>
+            </value>
+            <value>
+                <fullName>10A TRAVES</fullName>
+                <default>false</default>
+                <label>10A TRAVES</label>
+            </value>
+            <value>
+                <fullName>13 TV</fullName>
+                <default>false</default>
+                <label>13 TV</label>
+            </value>
+            <value>
+                <fullName>15A TV</fullName>
+                <default>false</default>
+                <label>15A TV</label>
+            </value>
+            <value>
+                <fullName>17 TV</fullName>
+                <default>false</default>
+                <label>17 TV</label>
+            </value>
+            <value>
+                <fullName>19 TV</fullName>
+                <default>false</default>
+                <label>19 TV</label>
+            </value>
+            <value>
+                <fullName>2ª R</fullName>
+                <default>false</default>
+                <label>2ª R</label>
+            </value>
+            <value>
+                <fullName>3 R</fullName>
+                <default>false</default>
+                <label>3 R</label>
+            </value>
+            <value>
+                <fullName>3ª AV</fullName>
+                <default>false</default>
+                <label>3ª AV</label>
+            </value>
+            <value>
+                <fullName>3A PAR</fullName>
+                <default>false</default>
+                <label>3A PAR</label>
+            </value>
+            <value>
+                <fullName>3A SUB</fullName>
+                <default>false</default>
+                <label>3A SUB</label>
+            </value>
+            <value>
+                <fullName>3A TV</fullName>
+                <default>false</default>
+                <label>3A TV</label>
+            </value>
+            <value>
+                <fullName>4 TV</fullName>
+                <default>false</default>
+                <label>4 TV</label>
+            </value>
+            <value>
+                <fullName>4 VL</fullName>
+                <default>false</default>
+                <label>4 VL</label>
+            </value>
+            <value>
+                <fullName>4ª R</fullName>
+                <default>false</default>
+                <label>4ª R</label>
+            </value>
+            <value>
+                <fullName>4A TV</fullName>
+                <default>false</default>
+                <label>4A TV</label>
+            </value>
+            <value>
+                <fullName>5A SUB</fullName>
+                <default>false</default>
+                <label>5A SUB</label>
+            </value>
+            <value>
+                <fullName>6A R</fullName>
+                <default>false</default>
+                <label>6A R</label>
+            </value>
+            <value>
+                <fullName>7 TV</fullName>
+                <default>false</default>
+                <label>7 TV</label>
+            </value>
+            <value>
+                <fullName>7ª R</fullName>
+                <default>false</default>
+                <label>7ª R</label>
+            </value>
+            <value>
+                <fullName>8 AV</fullName>
+                <default>false</default>
+                <label>8 AV</label>
+            </value>
+            <value>
+                <fullName>AL</fullName>
+                <default>false</default>
+                <label>AL</label>
+            </value>
+            <value>
+                <fullName>ANT EST</fullName>
+                <default>false</default>
+                <label>ANT EST</label>
+            </value>
+            <value>
+                <fullName>AVENIDA CO</fullName>
+                <default>false</default>
+                <label>AVENIDA CO</label>
+            </value>
+            <value>
+                <fullName>BLOCO</fullName>
+                <default>false</default>
+                <label>BLOCO</label>
+            </value>
+            <value>
+                <fullName>CAM DE SRV</fullName>
+                <default>false</default>
+                <label>CAM DE SRV</label>
+            </value>
+            <value>
+                <fullName>CH</fullName>
+                <default>false</default>
+                <label>CH</label>
+            </value>
+            <value>
+                <fullName>CONDOMINIO</fullName>
+                <default>false</default>
+                <label>CONDOMINIO</label>
+            </value>
+            <value>
+                <fullName>CONT</fullName>
+                <default>false</default>
+                <label>CONT</label>
+            </value>
+            <value>
+                <fullName>ESC</fullName>
+                <default>false</default>
+                <label>ESC</label>
+            </value>
+            <value>
+                <fullName>ESCA</fullName>
+                <default>false</default>
+                <label>ESCA</label>
+            </value>
+            <value>
+                <fullName>ESCADARIA</fullName>
+                <default>false</default>
+                <label>ESCADARIA</label>
+            </value>
+            <value>
+                <fullName>ESQ</fullName>
+                <default>false</default>
+                <label>ESQ</label>
+            </value>
+            <value>
+                <fullName>EST DE SRV</fullName>
+                <default>false</default>
+                <label>EST DE SRV</label>
+            </value>
+            <value>
+                <fullName>EST INTERM</fullName>
+                <default>false</default>
+                <label>EST INTERM</label>
+            </value>
+            <value>
+                <fullName>ESTC</fullName>
+                <default>false</default>
+                <label>ESTC</label>
+            </value>
+            <value>
+                <fullName>GALERIA</fullName>
+                <default>false</default>
+                <label>GALERIA</label>
+            </value>
+            <value>
+                <fullName>JARDINETE</fullName>
+                <default>false</default>
+                <label>JARDINETE</label>
+            </value>
+            <value>
+                <fullName>JD</fullName>
+                <default>false</default>
+                <label>JD</label>
+            </value>
+            <value>
+                <fullName>LARGO</fullName>
+                <default>false</default>
+                <label>LARGO</label>
+            </value>
+            <value>
+                <fullName>LG</fullName>
+                <default>false</default>
+                <label>LG</label>
+            </value>
+            <value>
+                <fullName>MNA</fullName>
+                <default>false</default>
+                <label>MNA</label>
+            </value>
+            <value>
+                <fullName>NV AV</fullName>
+                <default>false</default>
+                <label>NV AV</label>
+            </value>
+            <value>
+                <fullName>PATIO</fullName>
+                <default>false</default>
+                <label>PATIO</label>
+            </value>
+            <value>
+                <fullName>PONTE</fullName>
+                <default>false</default>
+                <label>PONTE</label>
+            </value>
+            <value>
+                <fullName>PR</fullName>
+                <default>false</default>
+                <label>PR</label>
+            </value>
+            <value>
+                <fullName>RAMAL</fullName>
+                <default>false</default>
+                <label>RAMAL</label>
+            </value>
+            <value>
+                <fullName>RETA</fullName>
+                <default>false</default>
+                <label>RETA</label>
+            </value>
+            <value>
+                <fullName>RTT</fullName>
+                <default>false</default>
+                <label>RTT</label>
+            </value>
+            <value>
+                <fullName>RUA PARTIC</fullName>
+                <default>false</default>
+                <label>RUA PARTIC</label>
+            </value>
+            <value>
+                <fullName>SERVIDAO</fullName>
+                <default>false</default>
+                <label>SERVIDAO</label>
+            </value>
+            <value>
+                <fullName>SUB</fullName>
+                <default>false</default>
+                <label>SUB</label>
+            </value>
+            <value>
+                <fullName>SUBIDA</fullName>
+                <default>false</default>
+                <label>SUBIDA</label>
+            </value>
+            <value>
+                <fullName>TR</fullName>
+                <default>false</default>
+                <label>TR</label>
+            </value>
+            <value>
+                <fullName>TUN</fullName>
+                <default>false</default>
+                <label>TUN</label>
+            </value>
+            <value>
+                <fullName>TV PART</fullName>
+                <default>false</default>
+                <label>TV PART</label>
+            </value>
+            <value>
+                <fullName>V</fullName>
+                <default>false</default>
+                <label>V</label>
+            </value>
+            <value>
+                <fullName>V LOC</fullName>
+                <default>false</default>
+                <label>V LOC</label>
+            </value>
+            <value>
+                <fullName>VIA DE ACE</fullName>
+                <default>false</default>
+                <label>VIA DE ACE</label>
+            </value>
+            <value>
+                <fullName>VIA LOCAL</fullName>
+                <default>false</default>
+                <label>VIA LOCAL</label>
+            </value>
+            <value>
+                <fullName>VILA</fullName>
+                <default>false</default>
+                <label>VILA</label>
+            </value>
+            <value>
+                <fullName>VRTE</fullName>
+                <default>false</default>
+                <label>VRTE</label>
+            </value>
+            <value>
+                <fullName>ZIG ZAG</fullName>
+                <default>false</default>
+                <label>ZIG ZAG</label>
+            </value>
+            <value>
+                <fullName>1 AV</fullName>
+                <default>false</default>
+                <label>1 AV</label>
+            </value>
+            <value>
+                <fullName>1 SUB</fullName>
+                <default>false</default>
+                <label>1 SUB</label>
+            </value>
+            <value>
+                <fullName>10ª R</fullName>
+                <default>false</default>
+                <label>10ª R</label>
+            </value>
+            <value>
+                <fullName>11 R</fullName>
+                <default>false</default>
+                <label>11 R</label>
+            </value>
+            <value>
+                <fullName>19A TV</fullName>
+                <default>false</default>
+                <label>19A TV</label>
+            </value>
+            <value>
+                <fullName>1ª AV</fullName>
+                <default>false</default>
+                <label>1ª AV</label>
+            </value>
+            <value>
+                <fullName>1A RUA</fullName>
+                <default>false</default>
+                <label>1A RUA</label>
+            </value>
+            <value>
+                <fullName>1A SUB</fullName>
+                <default>false</default>
+                <label>1A SUB</label>
+            </value>
+            <value>
+                <fullName>2 TV</fullName>
+                <default>false</default>
+                <label>2 TV</label>
+            </value>
+            <value>
+                <fullName>21A TV</fullName>
+                <default>false</default>
+                <label>21A TV</label>
+            </value>
+            <value>
+                <fullName>3A TRAVESS</fullName>
+                <default>false</default>
+                <label>3A TRAVESS</label>
+            </value>
+            <value>
+                <fullName>4 R</fullName>
+                <default>false</default>
+                <label>4 R</label>
+            </value>
+            <value>
+                <fullName>5 R</fullName>
+                <default>false</default>
+                <label>5 R</label>
+            </value>
+            <value>
+                <fullName>5A TV</fullName>
+                <default>false</default>
+                <label>5A TV</label>
+            </value>
+            <value>
+                <fullName>6 TV</fullName>
+                <default>false</default>
+                <label>6 TV</label>
+            </value>
+            <value>
+                <fullName>9 TV</fullName>
+                <default>false</default>
+                <label>9 TV</label>
+            </value>
+            <value>
+                <fullName>AC LOC</fullName>
+                <default>false</default>
+                <label>AC LOC</label>
+            </value>
+            <value>
+                <fullName>ACAMPAMENTO</fullName>
+                <default>false</default>
+                <label>ACAMPAMENTO</label>
+            </value>
+            <value>
+                <fullName>ACS</fullName>
+                <default>false</default>
+                <label>ACS</label>
+            </value>
+            <value>
+                <fullName>AD</fullName>
+                <default>false</default>
+                <label>AD</label>
+            </value>
+            <value>
+                <fullName>AES</fullName>
+                <default>false</default>
+                <label>AES</label>
+            </value>
+            <value>
+                <fullName>ANT ETC</fullName>
+                <default>false</default>
+                <label>ANT ETC</label>
+            </value>
+            <value>
+                <fullName>ATL</fullName>
+                <default>false</default>
+                <label>ATL</label>
+            </value>
+            <value>
+                <fullName>AV INT</fullName>
+                <default>false</default>
+                <label>AV INT</label>
+            </value>
+            <value>
+                <fullName>AV MARG PM</fullName>
+                <default>false</default>
+                <label>AV MARG PM</label>
+            </value>
+            <value>
+                <fullName>BCO</fullName>
+                <default>false</default>
+                <label>BCO</label>
+            </value>
+            <value>
+                <fullName>BECO</fullName>
+                <default>false</default>
+                <label>BECO</label>
+            </value>
+            <value>
+                <fullName>BV</fullName>
+                <default>false</default>
+                <label>BV</label>
+            </value>
+            <value>
+                <fullName>CIRCULAR</fullName>
+                <default>false</default>
+                <label>CIRCULAR</label>
+            </value>
+            <value>
+                <fullName>COX</fullName>
+                <default>false</default>
+                <label>COX</label>
+            </value>
+            <value>
+                <fullName>CXP</fullName>
+                <default>false</default>
+                <label>CXP</label>
+            </value>
+            <value>
+                <fullName>ESCAD</fullName>
+                <default>false</default>
+                <label>ESCAD</label>
+            </value>
+            <value>
+                <fullName>ESCADA</fullName>
+                <default>false</default>
+                <label>ESCADA</label>
+            </value>
+            <value>
+                <fullName>ESPLANADA</fullName>
+                <default>false</default>
+                <label>ESPLANADA</label>
+            </value>
+            <value>
+                <fullName>EST GERAL</fullName>
+                <default>false</default>
+                <label>EST GERAL</label>
+            </value>
+            <value>
+                <fullName>ESTADIO</fullName>
+                <default>false</default>
+                <label>ESTADIO</label>
+            </value>
+            <value>
+                <fullName>ESTRADA VI</fullName>
+                <default>false</default>
+                <label>ESTRADA VI</label>
+            </value>
+            <value>
+                <fullName>FAV</fullName>
+                <default>false</default>
+                <label>FAV</label>
+            </value>
+            <value>
+                <fullName>FORTE</fullName>
+                <default>false</default>
+                <label>FORTE</label>
+            </value>
+            <value>
+                <fullName>FRA</fullName>
+                <default>false</default>
+                <label>FRA</label>
+            </value>
+            <value>
+                <fullName>GLB</fullName>
+                <default>false</default>
+                <label>GLB</label>
+            </value>
+            <value>
+                <fullName>ILHA</fullName>
+                <default>false</default>
+                <label>ILHA</label>
+            </value>
+            <value>
+                <fullName>LAG</fullName>
+                <default>false</default>
+                <label>LAG</label>
+            </value>
+            <value>
+                <fullName>LOTEAMENTO</fullName>
+                <default>false</default>
+                <label>LOTEAMENTO</label>
+            </value>
+            <value>
+                <fullName>LRG</fullName>
+                <default>false</default>
+                <label>LRG</label>
+            </value>
+            <value>
+                <fullName>MARG</fullName>
+                <default>false</default>
+                <label>MARG</label>
+            </value>
+            <value>
+                <fullName>MODULO</fullName>
+                <default>false</default>
+                <label>MODULO</label>
+            </value>
+            <value>
+                <fullName>MRO</fullName>
+                <default>false</default>
+                <label>MRO</label>
+            </value>
+            <value>
+                <fullName>NUC RUR</fullName>
+                <default>false</default>
+                <label>NUC RUR</label>
+            </value>
+            <value>
+                <fullName>PAT</fullName>
+                <default>false</default>
+                <label>PAT</label>
+            </value>
+            <value>
+                <fullName>PNT</fullName>
+                <default>false</default>
+                <label>PNT</label>
+            </value>
+            <value>
+                <fullName>POR</fullName>
+                <default>false</default>
+                <label>POR</label>
+            </value>
+            <value>
+                <fullName>PORTO</fullName>
+                <default>false</default>
+                <label>PORTO</label>
+            </value>
+            <value>
+                <fullName>PRAIA</fullName>
+                <default>false</default>
+                <label>PRAIA</label>
+            </value>
+            <value>
+                <fullName>PRL</fullName>
+                <default>false</default>
+                <label>PRL</label>
+            </value>
+            <value>
+                <fullName>PRQ ECOLOG</fullName>
+                <default>false</default>
+                <label>PRQ ECOLOG</label>
+            </value>
+            <value>
+                <fullName>PRT</fullName>
+                <default>false</default>
+                <label>PRT</label>
+            </value>
+            <value>
+                <fullName>PSO</fullName>
+                <default>false</default>
+                <label>PSO</label>
+            </value>
+            <value>
+                <fullName>PSR</fullName>
+                <default>false</default>
+                <label>PSR</label>
+            </value>
+            <value>
+                <fullName>PTE</fullName>
+                <default>false</default>
+                <label>PTE</label>
+            </value>
+            <value>
+                <fullName>QTA</fullName>
+                <default>false</default>
+                <label>QTA</label>
+            </value>
+            <value>
+                <fullName>QUADRA</fullName>
+                <default>false</default>
+                <label>QUADRA</label>
+            </value>
+            <value>
+                <fullName>R PART</fullName>
+                <default>false</default>
+                <label>R PART</label>
+            </value>
+            <value>
+                <fullName>RECANTO</fullName>
+                <default>false</default>
+                <label>RECANTO</label>
+            </value>
+            <value>
+                <fullName>RER</fullName>
+                <default>false</default>
+                <label>RER</label>
+            </value>
+            <value>
+                <fullName>SMPW</fullName>
+                <default>false</default>
+                <label>SMPW</label>
+            </value>
+            <value>
+                <fullName>SRV PSG</fullName>
+                <default>false</default>
+                <label>SRV PSG</label>
+            </value>
+            <value>
+                <fullName>TERMINAL</fullName>
+                <default>false</default>
+                <label>TERMINAL</label>
+            </value>
+            <value>
+                <fullName>TRAVESSA</fullName>
+                <default>false</default>
+                <label>TRAVESSA</label>
+            </value>
+            <value>
+                <fullName>TRECHO</fullName>
+                <default>false</default>
+                <label>TRECHO</label>
+            </value>
+            <value>
+                <fullName>VEL</fullName>
+                <default>false</default>
+                <label>VEL</label>
+            </value>
+            <value>
+                <fullName>VLE</fullName>
+                <default>false</default>
+                <label>VLE</label>
+            </value>
+            <value>
+                <fullName>10 R</fullName>
+                <default>false</default>
+                <label>10 R</label>
+            </value>
+            <value>
+                <fullName>11A TV</fullName>
+                <default>false</default>
+                <label>11A TV</label>
+            </value>
+            <value>
+                <fullName>1A LD</fullName>
+                <default>false</default>
+                <label>1A LD</label>
+            </value>
+            <value>
+                <fullName>1A PAR</fullName>
+                <default>false</default>
+                <label>1A PAR</label>
+            </value>
+            <value>
+                <fullName>1A TV</fullName>
+                <default>false</default>
+                <label>1A TV</label>
+            </value>
+            <value>
+                <fullName>2 AV</fullName>
+                <default>false</default>
+                <label>2 AV</label>
+            </value>
+            <value>
+                <fullName>3 AV</fullName>
+                <default>false</default>
+                <label>3 AV</label>
+            </value>
+            <value>
+                <fullName>4ª AV</fullName>
+                <default>false</default>
+                <label>4ª AV</label>
+            </value>
+            <value>
+                <fullName>4ª SUBIDA</fullName>
+                <default>false</default>
+                <label>4ª SUBIDA</label>
+            </value>
+            <value>
+                <fullName>5 SUB</fullName>
+                <default>false</default>
+                <label>5 SUB</label>
+            </value>
+            <value>
+                <fullName>5 TV</fullName>
+                <default>false</default>
+                <label>5 TV</label>
+            </value>
+            <value>
+                <fullName>5A R</fullName>
+                <default>false</default>
+                <label>5A R</label>
+            </value>
+            <value>
+                <fullName>8 R</fullName>
+                <default>false</default>
+                <label>8 R</label>
+            </value>
+            <value>
+                <fullName>8A AV</fullName>
+                <default>false</default>
+                <label>8A AV</label>
+            </value>
+            <value>
+                <fullName>8A R</fullName>
+                <default>false</default>
+                <label>8A R</label>
+            </value>
+            <value>
+                <fullName>8A TV</fullName>
+                <default>false</default>
+                <label>8A TV</label>
+            </value>
+            <value>
+                <fullName>AC</fullName>
+                <default>false</default>
+                <label>AC</label>
+            </value>
+            <value>
+                <fullName>ALAMEDA</fullName>
+                <default>false</default>
+                <label>ALAMEDA</label>
+            </value>
+            <value>
+                <fullName>AN VR</fullName>
+                <default>false</default>
+                <label>AN VR</label>
+            </value>
+            <value>
+                <fullName>AREA ESPEC</fullName>
+                <default>false</default>
+                <label>AREA ESPEC</label>
+            </value>
+            <value>
+                <fullName>ARTERIA</fullName>
+                <default>false</default>
+                <label>ARTERIA</label>
+            </value>
+            <value>
+                <fullName>AV CONT</fullName>
+                <default>false</default>
+                <label>AV CONT</label>
+            </value>
+            <value>
+                <fullName>AV VELHA</fullName>
+                <default>false</default>
+                <label>AV VELHA</label>
+            </value>
+            <value>
+                <fullName>AVNIDA</fullName>
+                <default>false</default>
+                <label>AVNIDA</label>
+            </value>
+            <value>
+                <fullName>BOULEVARD</fullName>
+                <default>false</default>
+                <label>BOULEVARD</label>
+            </value>
+            <value>
+                <fullName>CALC</fullName>
+                <default>false</default>
+                <label>CALC</label>
+            </value>
+            <value>
+                <fullName>CALCADA</fullName>
+                <default>false</default>
+                <label>CALCADA</label>
+            </value>
+            <value>
+                <fullName>CIR</fullName>
+                <default>false</default>
+                <label>CIR</label>
+            </value>
+            <value>
+                <fullName>CJ RES</fullName>
+                <default>false</default>
+                <label>CJ RES</label>
+            </value>
+            <value>
+                <fullName>COND</fullName>
+                <default>false</default>
+                <label>COND</label>
+            </value>
+            <value>
+                <fullName>CORREGO</fullName>
+                <default>false</default>
+                <label>CORREGO</label>
+            </value>
+            <value>
+                <fullName>DSV</fullName>
+                <default>false</default>
+                <label>DSV</label>
+            </value>
+            <value>
+                <fullName>ENTO</fullName>
+                <default>false</default>
+                <label>ENTO</label>
+            </value>
+            <value>
+                <fullName>ENTRE QD</fullName>
+                <default>false</default>
+                <label>ENTRE QD</label>
+            </value>
+            <value>
+                <fullName>ESP</fullName>
+                <default>false</default>
+                <label>ESP</label>
+            </value>
+            <value>
+                <fullName>EST ESTADU</fullName>
+                <default>false</default>
+                <label>EST ESTADU</label>
+            </value>
+            <value>
+                <fullName>EST PART</fullName>
+                <default>false</default>
+                <label>EST PART</label>
+            </value>
+            <value>
+                <fullName>EST SRV</fullName>
+                <default>false</default>
+                <label>EST SRV</label>
+            </value>
+            <value>
+                <fullName>ETD</fullName>
+                <default>false</default>
+                <label>ETD</label>
+            </value>
+            <value>
+                <fullName>FLT</fullName>
+                <default>false</default>
+                <label>FLT</label>
+            </value>
+            <value>
+                <fullName>FNT</fullName>
+                <default>false</default>
+                <label>FNT</label>
+            </value>
+            <value>
+                <fullName>FONTE</fullName>
+                <default>false</default>
+                <label>FONTE</label>
+            </value>
+            <value>
+                <fullName>GLR</fullName>
+                <default>false</default>
+                <label>GLR</label>
+            </value>
+            <value>
+                <fullName>GRANJA</fullName>
+                <default>false</default>
+                <label>GRANJA</label>
+            </value>
+            <value>
+                <fullName>JARDIM</fullName>
+                <default>false</default>
+                <label>JARDIM</label>
+            </value>
+            <value>
+                <fullName>NUC RURAL</fullName>
+                <default>false</default>
+                <label>NUC RURAL</label>
+            </value>
+            <value>
+                <fullName>PARQUE</fullName>
+                <default>false</default>
+                <label>PARQUE</label>
+            </value>
+            <value>
+                <fullName>PARQUE RESIDENCIAL</fullName>
+                <default>false</default>
+                <label>PARQUE RESIDENCIAL</label>
+            </value>
+            <value>
+                <fullName>PASSAGEM</fullName>
+                <default>false</default>
+                <label>PASSAGEM</label>
+            </value>
+            <value>
+                <fullName>PRC</fullName>
+                <default>false</default>
+                <label>PRC</label>
+            </value>
+            <value>
+                <fullName>QD</fullName>
+                <default>false</default>
+                <label>QD</label>
+            </value>
+            <value>
+                <fullName>R LIG</fullName>
+                <default>false</default>
+                <label>R LIG</label>
+            </value>
+            <value>
+                <fullName>RDV</fullName>
+                <default>false</default>
+                <label>RDV</label>
+            </value>
+            <value>
+                <fullName>RES</fullName>
+                <default>false</default>
+                <label>RES</label>
+            </value>
+            <value>
+                <fullName>RETIRO</fullName>
+                <default>false</default>
+                <label>RETIRO</label>
+            </value>
+            <value>
+                <fullName>SIT</fullName>
+                <default>false</default>
+                <label>SIT</label>
+            </value>
+            <value>
+                <fullName>TREVO</fullName>
+                <default>false</default>
+                <label>TREVO</label>
+            </value>
+            <value>
+                <fullName>TV ROD</fullName>
+                <default>false</default>
+                <label>TV ROD</label>
+            </value>
+            <value>
+                <fullName>V PED</fullName>
+                <default>false</default>
+                <label>V PED</label>
+            </value>
+            <value>
+                <fullName>VALE</fullName>
+                <default>false</default>
+                <label>VALE</label>
+            </value>
+            <value>
+                <fullName>NULL</fullName>
+                <default>false</default>
+                <label>NULL</label>
+            </value>
+            <value>
+                <fullName>10A TV</fullName>
+                <default>false</default>
+                <label>10A TV</label>
+            </value>
+            <value>
+                <fullName>1A PARALEL</fullName>
+                <default>false</default>
+                <label>1A PARALEL</label>
+            </value>
+            <value>
+                <fullName>1O AT</fullName>
+                <default>false</default>
+                <label>1O AT</label>
+            </value>
+            <value>
+                <fullName>2 VL</fullName>
+                <default>false</default>
+                <label>2 VL</label>
+            </value>
+            <value>
+                <fullName>3ª R</fullName>
+                <default>false</default>
+                <label>3ª R</label>
+            </value>
+            <value>
+                <fullName>3A VL</fullName>
+                <default>false</default>
+                <label>3A VL</label>
+            </value>
+            <value>
+                <fullName>4O AT</fullName>
+                <default>false</default>
+                <label>4O AT</label>
+            </value>
+            <value>
+                <fullName>5ª AV</fullName>
+                <default>false</default>
+                <label>5ª AV</label>
+            </value>
+            <value>
+                <fullName>7 AV</fullName>
+                <default>false</default>
+                <label>7 AV</label>
+            </value>
+            <value>
+                <fullName>7 R</fullName>
+                <default>false</default>
+                <label>7 R</label>
+            </value>
+            <value>
+                <fullName>9 R</fullName>
+                <default>false</default>
+                <label>9 R</label>
+            </value>
+            <value>
+                <fullName>9A TV</fullName>
+                <default>false</default>
+                <label>9A TV</label>
+            </value>
+            <value>
+                <fullName>ADRO</fullName>
+                <default>false</default>
+                <label>ADRO</label>
+            </value>
+            <value>
+                <fullName>AEROPORTO</fullName>
+                <default>false</default>
+                <label>AEROPORTO</label>
+            </value>
+            <value>
+                <fullName>ART</fullName>
+                <default>false</default>
+                <label>ART</label>
+            </value>
+            <value>
+                <fullName>AT</fullName>
+                <default>false</default>
+                <label>AT</label>
+            </value>
+            <value>
+                <fullName>AV MARG</fullName>
+                <default>false</default>
+                <label>AV MARG</label>
+            </value>
+            <value>
+                <fullName>AVENIDA PE</fullName>
+                <default>false</default>
+                <label>AVENIDA PE</label>
+            </value>
+            <value>
+                <fullName>AVNIDANIDA</fullName>
+                <default>false</default>
+                <label>AVNIDANIDA</label>
+            </value>
+            <value>
+                <fullName>BELV</fullName>
+                <default>false</default>
+                <label>BELV</label>
+            </value>
+            <value>
+                <fullName>BLO</fullName>
+                <default>false</default>
+                <label>BLO</label>
+            </value>
+            <value>
+                <fullName>BSQ</fullName>
+                <default>false</default>
+                <label>BSQ</label>
+            </value>
+            <value>
+                <fullName>CHAP</fullName>
+                <default>false</default>
+                <label>CHAP</label>
+            </value>
+            <value>
+                <fullName>CMP VR</fullName>
+                <default>false</default>
+                <label>CMP VR</label>
+            </value>
+            <value>
+                <fullName>COR</fullName>
+                <default>false</default>
+                <label>COR</label>
+            </value>
+            <value>
+                <fullName>DESVIO</fullName>
+                <default>false</default>
+                <label>DESVIO</label>
+            </value>
+            <value>
+                <fullName>DT</fullName>
+                <default>false</default>
+                <label>DT</label>
+            </value>
+            <value>
+                <fullName>ESPL</fullName>
+                <default>false</default>
+                <label>ESPL</label>
+            </value>
+            <value>
+                <fullName>EST</fullName>
+                <default>false</default>
+                <label>EST</label>
+            </value>
+            <value>
+                <fullName>EST DE FER</fullName>
+                <default>false</default>
+                <label>EST DE FER</label>
+            </value>
+            <value>
+                <fullName>EST ESTD</fullName>
+                <default>false</default>
+                <label>EST ESTD</label>
+            </value>
+            <value>
+                <fullName>ETA</fullName>
+                <default>false</default>
+                <label>ETA</label>
+            </value>
+            <value>
+                <fullName>FEIRA</fullName>
+                <default>false</default>
+                <label>FEIRA</label>
+            </value>
+            <value>
+                <fullName>FER</fullName>
+                <default>false</default>
+                <label>FER</label>
+            </value>
+            <value>
+                <fullName>IA</fullName>
+                <default>false</default>
+                <label>IA</label>
+            </value>
+            <value>
+                <fullName>JD RES</fullName>
+                <default>false</default>
+                <label>JD RES</label>
+            </value>
+            <value>
+                <fullName>LD</fullName>
+                <default>false</default>
+                <label>LD</label>
+            </value>
+            <value>
+                <fullName>LGO</fullName>
+                <default>false</default>
+                <label>LGO</label>
+            </value>
+            <value>
+                <fullName>LT</fullName>
+                <default>false</default>
+                <label>LT</label>
+            </value>
+            <value>
+                <fullName>NUCLEO</fullName>
+                <default>false</default>
+                <label>NUCLEO</label>
+            </value>
+            <value>
+                <fullName>OIT TV</fullName>
+                <default>false</default>
+                <label>OIT TV</label>
+            </value>
+            <value>
+                <fullName>PARALELA</fullName>
+                <default>false</default>
+                <label>PARALELA</label>
+            </value>
+            <value>
+                <fullName>PASSEIO</fullName>
+                <default>false</default>
+                <label>PASSEIO</label>
+            </value>
+            <value>
+                <fullName>PTO</fullName>
+                <default>false</default>
+                <label>PTO</label>
+            </value>
+            <value>
+                <fullName>R PARTICULAR</fullName>
+                <default>false</default>
+                <label>R PARTICULAR</label>
+            </value>
+            <value>
+                <fullName>R PROJ</fullName>
+                <default>false</default>
+                <label>R PROJ</label>
+            </value>
+            <value>
+                <fullName>R VIC</fullName>
+                <default>false</default>
+                <label>R VIC</label>
+            </value>
+            <value>
+                <fullName>RETORNO</fullName>
+                <default>false</default>
+                <label>RETORNO</label>
+            </value>
+            <value>
+                <fullName>SETOR</fullName>
+                <default>false</default>
+                <label>SETOR</label>
+            </value>
+            <value>
+                <fullName>SRV DE PSG</fullName>
+                <default>false</default>
+                <label>SRV DE PSG</label>
+            </value>
+            <value>
+                <fullName>TV</fullName>
+                <default>false</default>
+                <label>TV</label>
+            </value>
+            <value>
+                <fullName>TV PARTICU</fullName>
+                <default>false</default>
+                <label>TV PARTICU</label>
+            </value>
+            <value>
+                <fullName>V COST</fullName>
+                <default>false</default>
+                <label>V COST</label>
+            </value>
+            <value>
+                <fullName>VAL</fullName>
+                <default>false</default>
+                <label>VAL</label>
+            </value>
+            <value>
+                <fullName>VER</fullName>
+                <default>false</default>
+                <label>VER</label>
+            </value>
+            <value>
+                <fullName>VIA</fullName>
+                <default>false</default>
+                <label>VIA</label>
+            </value>
+            <value>
+                <fullName>VLA</fullName>
+                <default>false</default>
+                <label>VLA</label>
+            </value>
+            <value>
+                <fullName>1 R</fullName>
+                <default>false</default>
+                <label>1 R</label>
+            </value>
+            <value>
+                <fullName>1A VL</fullName>
+                <default>false</default>
+                <label>1A VL</label>
+            </value>
+            <value>
+                <fullName>2A TRAVESS</fullName>
+                <default>false</default>
+                <label>2A TRAVESS</label>
+            </value>
+            <value>
+                <fullName>3 SUB</fullName>
+                <default>false</default>
+                <label>3 SUB</label>
+            </value>
+            <value>
+                <fullName>3O AT</fullName>
+                <default>false</default>
+                <label>3O AT</label>
+            </value>
+            <value>
+                <fullName>4 SUB</fullName>
+                <default>false</default>
+                <label>4 SUB</label>
+            </value>
+            <value>
+                <fullName>4A PAR</fullName>
+                <default>false</default>
+                <label>4A PAR</label>
+            </value>
+            <value>
+                <fullName>4A TRAVESS</fullName>
+                <default>false</default>
+                <label>4A TRAVESS</label>
+            </value>
+            <value>
+                <fullName>4A VL</fullName>
+                <default>false</default>
+                <label>4A VL</label>
+            </value>
+            <value>
+                <fullName>6 R</fullName>
+                <default>false</default>
+                <label>6 R</label>
+            </value>
+            <value>
+                <fullName>6ª AV</fullName>
+                <default>false</default>
+                <label>6ª AV</label>
+            </value>
+            <value>
+                <fullName>9ª R</fullName>
+                <default>false</default>
+                <label>9ª R</label>
+            </value>
+            <value>
+                <fullName>9A TRAVESS</fullName>
+                <default>false</default>
+                <label>9A TRAVESS</label>
+            </value>
+            <value>
+                <fullName>ACAMP</fullName>
+                <default>false</default>
+                <label>ACAMP</label>
+            </value>
+            <value>
+                <fullName>ATALHO</fullName>
+                <default>false</default>
+                <label>ATALHO</label>
+            </value>
+            <value>
+                <fullName>AV LIG</fullName>
+                <default>false</default>
+                <label>AV LIG</label>
+            </value>
+            <value>
+                <fullName>AV LIT</fullName>
+                <default>false</default>
+                <label>AV LIT</label>
+            </value>
+            <value>
+                <fullName>BAIXA</fullName>
+                <default>false</default>
+                <label>BAIXA</label>
+            </value>
+            <value>
+                <fullName>BOSQUE</fullName>
+                <default>false</default>
+                <label>BOSQUE</label>
+            </value>
+            <value>
+                <fullName>BURACO</fullName>
+                <default>false</default>
+                <label>BURACO</label>
+            </value>
+            <value>
+                <fullName>BVD</fullName>
+                <default>false</default>
+                <label>BVD</label>
+            </value>
+            <value>
+                <fullName>CAIS</fullName>
+                <default>false</default>
+                <label>CAIS</label>
+            </value>
+            <value>
+                <fullName>CAMINHO</fullName>
+                <default>false</default>
+                <label>CAMINHO</label>
+            </value>
+            <value>
+                <fullName>CAMPO</fullName>
+                <default>false</default>
+                <label>CAMPO</label>
+            </value>
+            <value>
+                <fullName>COND RES</fullName>
+                <default>false</default>
+                <label>COND RES</label>
+            </value>
+            <value>
+                <fullName>CPO</fullName>
+                <default>false</default>
+                <label>CPO</label>
+            </value>
+            <value>
+                <fullName>CPUS</fullName>
+                <default>false</default>
+                <label>CPUS</label>
+            </value>
+            <value>
+                <fullName>DISTR</fullName>
+                <default>false</default>
+                <label>DISTR</label>
+            </value>
+            <value>
+                <fullName>ENT PART</fullName>
+                <default>false</default>
+                <label>ENT PART</label>
+            </value>
+            <value>
+                <fullName>EST NV</fullName>
+                <default>false</default>
+                <label>EST NV</label>
+            </value>
+            <value>
+                <fullName>ETP</fullName>
+                <default>false</default>
+                <label>ETP</label>
+            </value>
+            <value>
+                <fullName>EX</fullName>
+                <default>false</default>
+                <label>EX</label>
+            </value>
+            <value>
+                <fullName>EX PRINC</fullName>
+                <default>false</default>
+                <label>EX PRINC</label>
+            </value>
+            <value>
+                <fullName>FAVELA</fullName>
+                <default>false</default>
+                <label>FAVELA</label>
+            </value>
+            <value>
+                <fullName>LAD</fullName>
+                <default>false</default>
+                <label>LAD</label>
+            </value>
+            <value>
+                <fullName>LAGOA</fullName>
+                <default>false</default>
+                <label>LAGOA</label>
+            </value>
+            <value>
+                <fullName>PAR</fullName>
+                <default>false</default>
+                <label>PAR</label>
+            </value>
+            <value>
+                <fullName>PARADA</fullName>
+                <default>false</default>
+                <label>PARADA</label>
+            </value>
+            <value>
+                <fullName>PASSARELA</fullName>
+                <default>false</default>
+                <label>PASSARELA</label>
+            </value>
+            <value>
+                <fullName>PC</fullName>
+                <default>false</default>
+                <label>PC</label>
+            </value>
+            <value>
+                <fullName>PÇ</fullName>
+                <default>false</default>
+                <label>PÇ</label>
+            </value>
+            <value>
+                <fullName>PROLONGAME</fullName>
+                <default>false</default>
+                <label>PROLONGAME</label>
+            </value>
+            <value>
+                <fullName>PROLONGAMENTO</fullName>
+                <default>false</default>
+                <label>PROLONGAMENTO</label>
+            </value>
+            <value>
+                <fullName>PRQ ECO</fullName>
+                <default>false</default>
+                <label>PRQ ECO</label>
+            </value>
+            <value>
+                <fullName>R PRINC</fullName>
+                <default>false</default>
+                <label>R PRINC</label>
+            </value>
+            <value>
+                <fullName>R VL</fullName>
+                <default>false</default>
+                <label>R VL</label>
+            </value>
+            <value>
+                <fullName>RCH</fullName>
+                <default>false</default>
+                <label>RCH</label>
+            </value>
+            <value>
+                <fullName>RET</fullName>
+                <default>false</default>
+                <label>RET</label>
+            </value>
+            <value>
+                <fullName>RMP</fullName>
+                <default>false</default>
+                <label>RMP</label>
+            </value>
+            <value>
+                <fullName>V MARG</fullName>
+                <default>false</default>
+                <label>V MARG</label>
+            </value>
+            <value>
+                <fullName>V PEDS</fullName>
+                <default>false</default>
+                <label>V PEDS</label>
+            </value>
+            <value>
+                <fullName>V PRINC</fullName>
+                <default>false</default>
+                <label>V PRINC</label>
+            </value>
+            <value>
+                <fullName>VD</fullName>
+                <default>false</default>
+                <label>VD</label>
+            </value>
+            <value>
+                <fullName>VEREDA</fullName>
+                <default>false</default>
+                <label>VEREDA</label>
+            </value>
+            <value>
+                <fullName>VIA DE PED</fullName>
+                <default>false</default>
+                <label>VIA DE PED</label>
+            </value>
+            <value>
+                <fullName>VIADUTO</fullName>
+                <default>false</default>
+                <label>VIADUTO</label>
+            </value>
+            <value>
+                <fullName>VIELA</fullName>
+                <default>false</default>
+                <label>VIELA</label>
+            </value>
+            <value>
+                <fullName>1 A TV</fullName>
+                <default>false</default>
+                <label>1 A TV</label>
+            </value>
+            <value>
+                <fullName>13A TV</fullName>
+                <default>false</default>
+                <label>13A TV</label>
+            </value>
+            <value>
+                <fullName>17A TV</fullName>
+                <default>false</default>
+                <label>17A TV</label>
+            </value>
+            <value>
+                <fullName>2 SUB</fullName>
+                <default>false</default>
+                <label>2 SUB</label>
+            </value>
+            <value>
+                <fullName>3 TV</fullName>
+                <default>false</default>
+                <label>3 TV</label>
+            </value>
+            <value>
+                <fullName>3A RUA</fullName>
+                <default>false</default>
+                <label>3A RUA</label>
+            </value>
+            <value>
+                <fullName>5O AT</fullName>
+                <default>false</default>
+                <label>5O AT</label>
+            </value>
+            <value>
+                <fullName>6 SUB</fullName>
+                <default>false</default>
+                <label>6 SUB</label>
+            </value>
+            <value>
+                <fullName>AER</fullName>
+                <default>false</default>
+                <label>AER</label>
+            </value>
+            <value>
+                <fullName>ALTO</fullName>
+                <default>false</default>
+                <label>ALTO</label>
+            </value>
+            <value>
+                <fullName>AV PERIMET</fullName>
+                <default>false</default>
+                <label>AV PERIMET</label>
+            </value>
+            <value>
+                <fullName>AVENIDA</fullName>
+                <default>false</default>
+                <label>AVENIDA</label>
+            </value>
+            <value>
+                <fullName>BALAO</fullName>
+                <default>false</default>
+                <label>BALAO</label>
+            </value>
+            <value>
+                <fullName>BL</fullName>
+                <default>false</default>
+                <label>BL</label>
+            </value>
+            <value>
+                <fullName>CAL</fullName>
+                <default>false</default>
+                <label>CAL</label>
+            </value>
+            <value>
+                <fullName>CIRC</fullName>
+                <default>false</default>
+                <label>CIRC</label>
+            </value>
+            <value>
+                <fullName>CORREDOR</fullName>
+                <default>false</default>
+                <label>CORREDOR</label>
+            </value>
+            <value>
+                <fullName>CZTO</fullName>
+                <default>false</default>
+                <label>CZTO</label>
+            </value>
+            <value>
+                <fullName>DESCIDA</fullName>
+                <default>false</default>
+                <label>DESCIDA</label>
+            </value>
+            <value>
+                <fullName>DIS</fullName>
+                <default>false</default>
+                <label>DIS</label>
+            </value>
+            <value>
+                <fullName>ENT</fullName>
+                <default>false</default>
+                <label>ENT</label>
+            </value>
+            <value>
+                <fullName>EST FER</fullName>
+                <default>false</default>
+                <label>EST FER</label>
+            </value>
+            <value>
+                <fullName>EST MUNICI</fullName>
+                <default>false</default>
+                <label>EST MUNICI</label>
+            </value>
+            <value>
+                <fullName>ESTACAO</fullName>
+                <default>false</default>
+                <label>ESTACAO</label>
+            </value>
+            <value>
+                <fullName>ESTRADA</fullName>
+                <default>false</default>
+                <label>ESTRADA</label>
+            </value>
+            <value>
+                <fullName>FAZ</fullName>
+                <default>false</default>
+                <label>FAZ</label>
+            </value>
+            <value>
+                <fullName>HAB</fullName>
+                <default>false</default>
+                <label>HAB</label>
+            </value>
+            <value>
+                <fullName>LOT</fullName>
+                <default>false</default>
+                <label>LOT</label>
+            </value>
+            <value>
+                <fullName>MARGINAL</fullName>
+                <default>false</default>
+                <label>MARGINAL</label>
+            </value>
+            <value>
+                <fullName>MTE</fullName>
+                <default>false</default>
+                <label>MTE</label>
+            </value>
+            <value>
+                <fullName>NUC</fullName>
+                <default>false</default>
+                <label>NUC</label>
+            </value>
+            <value>
+                <fullName>OUT</fullName>
+                <default>false</default>
+                <label>OUT</label>
+            </value>
+            <value>
+                <fullName>PAS</fullName>
+                <default>false</default>
+                <label>PAS</label>
+            </value>
+            <value>
+                <fullName>PCO</fullName>
+                <default>false</default>
+                <label>PCO</label>
+            </value>
+            <value>
+                <fullName>PRQ MUN</fullName>
+                <default>false</default>
+                <label>PRQ MUN</label>
+            </value>
+            <value>
+                <fullName>PSG PED</fullName>
+                <default>false</default>
+                <label>PSG PED</label>
+            </value>
+            <value>
+                <fullName>R PED</fullName>
+                <default>false</default>
+                <label>R PED</label>
+            </value>
+            <value>
+                <fullName>RAMPA</fullName>
+                <default>false</default>
+                <label>RAMPA</label>
+            </value>
+            <value>
+                <fullName>RCHO</fullName>
+                <default>false</default>
+                <label>RCHO</label>
+            </value>
+            <value>
+                <fullName>REC</fullName>
+                <default>false</default>
+                <label>REC</label>
+            </value>
+            <value>
+                <fullName>RESIDENCIA</fullName>
+                <default>false</default>
+                <label>RESIDENCIA</label>
+            </value>
+            <value>
+                <fullName>ROD</fullName>
+                <default>false</default>
+                <label>ROD</label>
+            </value>
+            <value>
+                <fullName>RUA DE PED</fullName>
+                <default>false</default>
+                <label>RUA DE PED</label>
+            </value>
+            <value>
+                <fullName>RUA PRINCI</fullName>
+                <default>false</default>
+                <label>RUA PRINCI</label>
+            </value>
+            <value>
+                <fullName>SEBASTIA£O</fullName>
+                <default>false</default>
+                <label>SEBASTIA£O</label>
+            </value>
+            <value>
+                <fullName>SRV</fullName>
+                <default>false</default>
+                <label>SRV</label>
+            </value>
+            <value>
+                <fullName>ST</fullName>
+                <default>false</default>
+                <label>ST</label>
+            </value>
+            <value>
+                <fullName>TER</fullName>
+                <default>false</default>
+                <label>TER</label>
+            </value>
+            <value>
+                <fullName>TRV</fullName>
+                <default>false</default>
+                <label>TRV</label>
+            </value>
+            <value>
+                <fullName>VALA</fullName>
+                <default>false</default>
+                <label>VALA</label>
+            </value>
+            <value>
+                <fullName>VAR</fullName>
+                <default>false</default>
+                <label>VAR</label>
+            </value>
+            <value>
+                <fullName>1 AT</fullName>
+                <default>false</default>
+                <label>1 AT</label>
+            </value>
+            <value>
+                <fullName>1 VL</fullName>
+                <default>false</default>
+                <label>1 VL</label>
+            </value>
+            <value>
+                <fullName>10 TV</fullName>
+                <default>false</default>
+                <label>10 TV</label>
+            </value>
+            <value>
+                <fullName>12 R</fullName>
+                <default>false</default>
+                <label>12 R</label>
+            </value>
+            <value>
+                <fullName>14A TV</fullName>
+                <default>false</default>
+                <label>14A TV</label>
+            </value>
+            <value>
+                <fullName>15 TV</fullName>
+                <default>false</default>
+                <label>15 TV</label>
+            </value>
+            <value>
+                <fullName>16A TV</fullName>
+                <default>false</default>
+                <label>16A TV</label>
+            </value>
+            <value>
+                <fullName>18A TV</fullName>
+                <default>false</default>
+                <label>18A TV</label>
+            </value>
+            <value>
+                <fullName>2ª AV</fullName>
+                <default>false</default>
+                <label>2ª AV</label>
+            </value>
+            <value>
+                <fullName>2A RUA</fullName>
+                <default>false</default>
+                <label>2A RUA</label>
+            </value>
+            <value>
+                <fullName>2A SUB</fullName>
+                <default>false</default>
+                <label>2A SUB</label>
+            </value>
+            <value>
+                <fullName>2A TV</fullName>
+                <default>false</default>
+                <label>2A TV</label>
+            </value>
+            <value>
+                <fullName>3A AVENIDA</fullName>
+                <default>false</default>
+                <label>3A AVENIDA</label>
+            </value>
+            <value>
+                <fullName>3A LD</fullName>
+                <default>false</default>
+                <label>3A LD</label>
+            </value>
+            <value>
+                <fullName>4 AV</fullName>
+                <default>false</default>
+                <label>4 AV</label>
+            </value>
+            <value>
+                <fullName>4A SUB</fullName>
+                <default>false</default>
+                <label>4A SUB</label>
+            </value>
+            <value>
+                <fullName>5A VL</fullName>
+                <default>false</default>
+                <label>5A VL</label>
+            </value>
+            <value>
+                <fullName>6A TV</fullName>
+                <default>false</default>
+                <label>6A TV</label>
+            </value>
+            <value>
+                <fullName>7A AV</fullName>
+                <default>false</default>
+                <label>7A AV</label>
+            </value>
+            <value>
+                <fullName>7A TV</fullName>
+                <default>false</default>
+                <label>7A TV</label>
+            </value>
+            <value>
+                <fullName>A</fullName>
+                <default>false</default>
+                <label>A</label>
+            </value>
+            <value>
+                <fullName>ACESSO</fullName>
+                <default>false</default>
+                <label>ACESSO</label>
+            </value>
+            <value>
+                <fullName>ACP</fullName>
+                <default>false</default>
+                <label>ACP</label>
+            </value>
+            <value>
+                <fullName>AV</fullName>
+                <default>false</default>
+                <label>AV</label>
+            </value>
+            <value>
+                <fullName>BC</fullName>
+                <default>false</default>
+                <label>BC</label>
+            </value>
+            <value>
+                <fullName>CAM</fullName>
+                <default>false</default>
+                <label>CAM</label>
+            </value>
+            <value>
+                <fullName>CAN</fullName>
+                <default>false</default>
+                <label>CAN</label>
+            </value>
+            <value>
+                <fullName>COL</fullName>
+                <default>false</default>
+                <label>COL</label>
+            </value>
+            <value>
+                <fullName>COM</fullName>
+                <default>false</default>
+                <label>COM</label>
+            </value>
+            <value>
+                <fullName>CON</fullName>
+                <default>false</default>
+                <label>CON</label>
+            </value>
+            <value>
+                <fullName>CRO</fullName>
+                <default>false</default>
+                <label>CRO</label>
+            </value>
+            <value>
+                <fullName>EIXO</fullName>
+                <default>false</default>
+                <label>EIXO</label>
+            </value>
+            <value>
+                <fullName>EST ANT</fullName>
+                <default>false</default>
+                <label>EST ANT</label>
+            </value>
+            <value>
+                <fullName>EST MUN</fullName>
+                <default>false</default>
+                <label>EST MUN</label>
+            </value>
+            <value>
+                <fullName>EST VIC</fullName>
+                <default>false</default>
+                <label>EST VIC</label>
+            </value>
+            <value>
+                <fullName>ESTR</fullName>
+                <default>false</default>
+                <label>ESTR</label>
+            </value>
+            <value>
+                <fullName>ETC</fullName>
+                <default>false</default>
+                <label>ETC</label>
+            </value>
+            <value>
+                <fullName>MERC</fullName>
+                <default>false</default>
+                <label>MERC</label>
+            </value>
+            <value>
+                <fullName>MOD</fullName>
+                <default>false</default>
+                <label>MOD</label>
+            </value>
+            <value>
+                <fullName>PAS PUB</fullName>
+                <default>false</default>
+                <label>PAS PUB</label>
+            </value>
+            <value>
+                <fullName>PC ROT</fullName>
+                <default>false</default>
+                <label>PC ROT</label>
+            </value>
+            <value>
+                <fullName>QUINTA</fullName>
+                <default>false</default>
+                <label>QUINTA</label>
+            </value>
+            <value>
+                <fullName>RAM</fullName>
+                <default>false</default>
+                <label>RAM</label>
+            </value>
+            <value>
+                <fullName>RANCH</fullName>
+                <default>false</default>
+                <label>RANCH</label>
+            </value>
+            <value>
+                <fullName>ROTATORIA</fullName>
+                <default>false</default>
+                <label>ROTATORIA</label>
+            </value>
+            <value>
+                <fullName>RUA</fullName>
+                <default>false</default>
+                <label>RUA</label>
+            </value>
+            <value>
+                <fullName>VIC</fullName>
+                <default>false</default>
+                <label>VIC</label>
+            </value>
+            <value>
+                <fullName>VL</fullName>
+                <default>false</default>
+                <label>VL</label>
+            </value>
+            <value>
+                <fullName>1 TV</fullName>
+                <default>false</default>
+                <label>1 TV</label>
+            </value>
+            <value>
+                <fullName>11A R</fullName>
+                <default>false</default>
+                <label>11A R</label>
+            </value>
+            <value>
+                <fullName>12A R</fullName>
+                <default>false</default>
+                <label>12A R</label>
+            </value>
+            <value>
+                <fullName>12A TV</fullName>
+                <default>false</default>
+                <label>12A TV</label>
+            </value>
+            <value>
+                <fullName>1ª R</fullName>
+                <default>false</default>
+                <label>1ª R</label>
+            </value>
+            <value>
+                <fullName>1A TRAVESS</fullName>
+                <default>false</default>
+                <label>1A TRAVESS</label>
+            </value>
+            <value>
+                <fullName>2 R</fullName>
+                <default>false</default>
+                <label>2 R</label>
+            </value>
+            <value>
+                <fullName>2A AL</fullName>
+                <default>false</default>
+                <label>2A AL</label>
+            </value>
+            <value>
+                <fullName>2A AVENIDA</fullName>
+                <default>false</default>
+                <label>2A AVENIDA</label>
+            </value>
+            <value>
+                <fullName>2A LD</fullName>
+                <default>false</default>
+                <label>2A LD</label>
+            </value>
+            <value>
+                <fullName>2A PAR</fullName>
+                <default>false</default>
+                <label>2A PAR</label>
+            </value>
+            <value>
+                <fullName>2A VL</fullName>
+                <default>false</default>
+                <label>2A VL</label>
+            </value>
+            <value>
+                <fullName>2O AT</fullName>
+                <default>false</default>
+                <label>2O AT</label>
+            </value>
+            <value>
+                <fullName>2O BC</fullName>
+                <default>false</default>
+                <label>2O BC</label>
+            </value>
+            <value>
+                <fullName>3 VL</fullName>
+                <default>false</default>
+                <label>3 VL</label>
+            </value>
+            <value>
+                <fullName>5 VL</fullName>
+                <default>false</default>
+                <label>5 VL</label>
+            </value>
+            <value>
+                <fullName>5A TRAVESS</fullName>
+                <default>false</default>
+                <label>5A TRAVESS</label>
+            </value>
+            <value>
+                <fullName>6A SUBIDA</fullName>
+                <default>false</default>
+                <label>6A SUBIDA</label>
+            </value>
+            <value>
+                <fullName>8 TV</fullName>
+                <default>false</default>
+                <label>8 TV</label>
+            </value>
+            <value>
+                <fullName>A VERDE</fullName>
+                <default>false</default>
+                <label>A VERDE</label>
+            </value>
+            <value>
+                <fullName>ACESSO LOC</fullName>
+                <default>false</default>
+                <label>ACESSO LOC</label>
+            </value>
+            <value>
+                <fullName>AV MARGINA</fullName>
+                <default>false</default>
+                <label>AV MARGINA</label>
+            </value>
+            <value>
+                <fullName>BAL</fullName>
+                <default>false</default>
+                <label>BAL</label>
+            </value>
+            <value>
+                <fullName>BLV</fullName>
+                <default>false</default>
+                <label>BLV</label>
+            </value>
+            <value>
+                <fullName>BX</fullName>
+                <default>false</default>
+                <label>BX</label>
+            </value>
+            <value>
+                <fullName>CAM SERV</fullName>
+                <default>false</default>
+                <label>CAM SERV</label>
+            </value>
+            <value>
+                <fullName>CANAL</fullName>
+                <default>false</default>
+                <label>CANAL</label>
+            </value>
+            <value>
+                <fullName>CHACARA</fullName>
+                <default>false</default>
+                <label>CHACARA</label>
+            </value>
+            <value>
+                <fullName>CICL</fullName>
+                <default>false</default>
+                <label>CICL</label>
+            </value>
+            <value>
+                <fullName>CJ</fullName>
+                <default>false</default>
+                <label>CJ</label>
+            </value>
+            <value>
+                <fullName>CJ HAB</fullName>
+                <default>false</default>
+                <label>CJ HAB</label>
+            </value>
+            <value>
+                <fullName>COLONIA</fullName>
+                <default>false</default>
+                <label>COLONIA</label>
+            </value>
+            <value>
+                <fullName>CONJUNTO</fullName>
+                <default>false</default>
+                <label>CONJUNTO</label>
+            </value>
+            <value>
+                <fullName>CRG</fullName>
+                <default>false</default>
+                <label>CRG</label>
+            </value>
+            <value>
+                <fullName>DSC</fullName>
+                <default>false</default>
+                <label>DSC</label>
+            </value>
+            <value>
+                <fullName>EQ</fullName>
+                <default>false</default>
+                <label>EQ</label>
+            </value>
+            <value>
+                <fullName>EST LIG</fullName>
+                <default>false</default>
+                <label>EST LIG</label>
+            </value>
+            <value>
+                <fullName>EST VL</fullName>
+                <default>false</default>
+                <label>EST VL</label>
+            </value>
+            <value>
+                <fullName>ESTRADA AN</fullName>
+                <default>false</default>
+                <label>ESTRADA AN</label>
+            </value>
+            <value>
+                <fullName>ESTRADA VE</fullName>
+                <default>false</default>
+                <label>ESTRADA VE</label>
+            </value>
+            <value>
+                <fullName>FERROVIA</fullName>
+                <default>false</default>
+                <label>FERROVIA</label>
+            </value>
+            <value>
+                <fullName>GJ</fullName>
+                <default>false</default>
+                <label>GJ</label>
+            </value>
+            <value>
+                <fullName>GJA</fullName>
+                <default>false</default>
+                <label>GJA</label>
+            </value>
+            <value>
+                <fullName>LGA</fullName>
+                <default>false</default>
+                <label>LGA</label>
+            </value>
+            <value>
+                <fullName>MONTE</fullName>
+                <default>false</default>
+                <label>MONTE</label>
+            </value>
+            <value>
+                <fullName>MORRO</fullName>
+                <default>false</default>
+                <label>MORRO</label>
+            </value>
+            <value>
+                <fullName>NUC HAB</fullName>
+                <default>false</default>
+                <label>NUC HAB</label>
+            </value>
+            <value>
+                <fullName>PDA</fullName>
+                <default>false</default>
+                <label>PDA</label>
+            </value>
+            <value>
+                <fullName>PDO</fullName>
+                <default>false</default>
+                <label>PDO</label>
+            </value>
+            <value>
+                <fullName>POV</fullName>
+                <default>false</default>
+                <label>POV</label>
+            </value>
+            <value>
+                <fullName>PRACA</fullName>
+                <default>false</default>
+                <label>PRACA</label>
+            </value>
+            <value>
+                <fullName>PRQ</fullName>
+                <default>false</default>
+                <label>PRQ</label>
+            </value>
+            <value>
+                <fullName>PRQ RES</fullName>
+                <default>false</default>
+                <label>PRQ RES</label>
+            </value>
+            <value>
+                <fullName>PSG</fullName>
+                <default>false</default>
+                <label>PSG</label>
+            </value>
+            <value>
+                <fullName>Q</fullName>
+                <default>false</default>
+                <label>Q</label>
+            </value>
+            <value>
+                <fullName>R</fullName>
+                <default>false</default>
+                <label>R</label>
+            </value>
+            <value>
+                <fullName>R DE LIGACAO</fullName>
+                <default>false</default>
+                <label>R DE LIGACAO</label>
+            </value>
+            <value>
+                <fullName>R VEL</fullName>
+                <default>false</default>
+                <label>R VEL</label>
+            </value>
+            <value>
+                <fullName>RESIDENCIAL</fullName>
+                <default>false</default>
+                <label>RESIDENCIAL</label>
+            </value>
+            <value>
+                <fullName>RODOVIA</fullName>
+                <default>false</default>
+                <label>RODOVIA</label>
+            </value>
+            <value>
+                <fullName>ROT</fullName>
+                <default>false</default>
+                <label>ROT</label>
+            </value>
+            <value>
+                <fullName>RUA DE LIG</fullName>
+                <default>false</default>
+                <label>RUA DE LIG</label>
+            </value>
+            <value>
+                <fullName>RUA PROJET</fullName>
+                <default>false</default>
+                <label>RUA PROJET</label>
+            </value>
+            <value>
+                <fullName>TRAV</fullName>
+                <default>false</default>
+                <label>TRAV</label>
+            </value>
+            <value>
+                <fullName>UNID</fullName>
+                <default>false</default>
+                <label>UNID</label>
+            </value>
+            <value>
+                <fullName>UNIDADE</fullName>
+                <default>false</default>
+                <label>UNIDADE</label>
+            </value>
+            <value>
+                <fullName>V AC</fullName>
+                <default>false</default>
+                <label>V AC</label>
+            </value>
+            <value>
+                <fullName>V COLET</fullName>
+                <default>false</default>
+                <label>V COLET</label>
+            </value>
+            <value>
+                <fullName>V EXP</fullName>
+                <default>false</default>
+                <label>V EXP</label>
+            </value>
+            <value>
+                <fullName>VIA EXPRES</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>VIA EXPRES</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

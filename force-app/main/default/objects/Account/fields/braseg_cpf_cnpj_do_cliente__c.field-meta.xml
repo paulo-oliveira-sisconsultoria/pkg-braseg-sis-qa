@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>braseg_cpf_cnpj_do_cliente__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(RecordType.DeveloperName = &apos;PersonAccount&apos;, 
+				LEFT(braseg_cpf_cnpj__c, 3),   LEFT(braseg_cpf_cnpj__c, 4))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>CPF CNPJ do Cliente</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

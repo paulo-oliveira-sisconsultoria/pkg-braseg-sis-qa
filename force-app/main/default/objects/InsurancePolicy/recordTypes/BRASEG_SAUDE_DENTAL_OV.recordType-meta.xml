@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BRASEG_SAUDE_DENTAL_OV</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>BRASEG_COMPACT_LAYOUT_INSURANCEPOLICY_SAUDE_DENTAL</compactLayoutAssignment>
+    <label>Saúde e Dental</label>
+    <picklistValues>
+        <picklist>AuditTerm</picklist>
+        <values>
+            <fullName>Anualmente</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mensal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quinzenal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Semestral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trimestral</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CancellationReasonType</picklist>
+        <values>
+            <fullName>Alteração significativa em risco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cancelado pela Seguradora ou pela Administradora do plano</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cancelado por solicitação da empresa financeira</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cobertura duplicada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cobertura localizada em outro lugar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Falha em cumprir com os termos e condições %28por exemplo%2C Falha de auditoria%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Falha no pagamento de franquia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Isenção judicial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Motivos de subscrição</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Má representação das informações na candidatura</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Não aceito</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Outro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reescrito</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Revogação de aceitação do mercado voluntária</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sem eleição de oficial corporativo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sem pagamento</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solicitação do assegurado</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ChangeSubtype</picklist>
+        <values>
+            <fullName>Casamento</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nascimento de criança</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ChangeType</picklist>
+        <values>
+            <fullName>Evento da vida</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Renovação de casa</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>FnolChannel</picklist>
+        <values>
+            <fullName>Celular</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chatbot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telefone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PlanTier</picklist>
+        <values>
+            <fullName>Ouro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Platina</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prata</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PlanType</picklist>
+        <values>
+            <fullName>Apólice conjunta de primeiro a morrer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Apólice conjunta de último a morrer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vida única</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PolicyTerm</picklist>
+        <values>
+            <fullName>Anual</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Diário</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mensal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Personalizado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Semestral</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PolicyType</picklist>
+        <values>
+            <fullName>Anuidade</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Carro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Comercial Automático</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Compensação do trabalhador</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Início</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Propriedade comercial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vida</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PremiumCalculationMethod</picklist>
+        <values>
+            <fullName>Diário</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Modal</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PremiumFrequency</picklist>
+        <values>
+            <fullName>Anualmente</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mensal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quinzenal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Semestral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trimestral</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PremiumPaymentType</picklist>
+        <values>
+            <fullName>Avançar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Em atraso</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>RenewalChannel</picklist>
+        <values>
+            <fullName>Celular</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chatbot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telefone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status</picklist>
+        <values>
+            <fullName>Aplicado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cancelado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cliente rejeitado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cotado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cotação abandonada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Decorrido</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Em negociação</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Em vigor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Em vigor %E2%80%93 alteração pendente</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Em vigor com cobertura temporária</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Encerrado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Encerramento de vida útil completa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Encerramentos prematuros do contrato</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fim da negociação</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Final</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hipotético</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inicial</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Não aceito</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oferecido</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rascunho</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Seguradora rejeitada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Substituído pela contraoferta da seguradora</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Substituído pelo aplicativo do cliente</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Suspenso</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Substatus</picklist>
+        <values>
+            <fullName>Cotação abandonada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fim da negociação</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Final</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Não aceito</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rascunho</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>braseg_regime_contratacao__c</picklist>
+        <values>
+            <fullName>FROTA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INDIVIDUAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INDIVIDUAL C%2F CONTR%2E</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>braseg_tp_pessoa_corretor__c</picklist>
+        <values>
+            <fullName>F</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>J</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>braseg_situacao_cadastral__c</fullName>
+    <externalId>false</externalId>
+    <label>Situação</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>NULL</fullName>
+                <default>false</default>
+                <label>NULL</label>
+            </value>
+            <value>
+                <fullName>ATIVA</fullName>
+                <default>false</default>
+                <label>ATIVA</label>
+            </value>
+            <value>
+                <fullName>ATIVA - EMPRESA DOMICILIADA NO EXTERIOR</fullName>
+                <default>false</default>
+                <label>ATIVA - EMPRESA DOMICILIADA NO EXTERIOR</label>
+            </value>
+            <value>
+                <fullName>BAIXADA</fullName>
+                <default>false</default>
+                <label>BAIXADA</label>
+            </value>
+            <value>
+                <fullName>INAPTA</fullName>
+                <default>false</default>
+                <label>INAPTA</label>
+            </value>
+            <value>
+                <fullName>NULA</fullName>
+                <default>false</default>
+                <label>NULA</label>
+            </value>
+            <value>
+                <fullName>SUSPENSA</fullName>
+                <default>false</default>
+                <label>SUSPENSA</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

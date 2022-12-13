@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>braseg_faixa_renda__c</fullName>
+    <externalId>false</externalId>
+    <label>Faixa de Renda</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>&apos;&apos;</fullName>
+                <default>false</default>
+                <label>&apos;&apos;</label>
+            </value>
+            <value>
+                <fullName>De R$ 0,01 a R$ 499,99</fullName>
+                <default>false</default>
+                <label>De R$ 0,01 a R$ 499,99</label>
+            </value>
+            <value>
+                <fullName>De R$ 500 a R$ 999,99</fullName>
+                <default>false</default>
+                <label>De R$ 500 a R$ 999,99</label>
+            </value>
+            <value>
+                <fullName>De R$ 1.000,00 a R$ 1.500,00</fullName>
+                <default>false</default>
+                <label>De R$ 1.000,00 a R$ 1.500,00</label>
+            </value>
+            <value>
+                <fullName>De R$ 1.500,00 a R$ 2.000,00</fullName>
+                <default>false</default>
+                <label>De R$ 1.500,00 a R$ 2.000,00</label>
+            </value>
+            <value>
+                <fullName>De R$ 2.000,00 a R$ 2.500,00</fullName>
+                <default>false</default>
+                <label>De R$ 2.000,00 a R$ 2.500,00</label>
+            </value>
+            <value>
+                <fullName>De R$ 2.500,00 a R$ 3.000,00</fullName>
+                <default>false</default>
+                <label>De R$ 2.500,00 a R$ 3.000,00</label>
+            </value>
+            <value>
+                <fullName>De R$ 3.000,00 a R$ 4.000,00</fullName>
+                <default>false</default>
+                <label>De R$ 3.000,00 a R$ 4.000,00</label>
+            </value>
+            <value>
+                <fullName>De R$ 4.000,00 a R$ 5.000,00</fullName>
+                <default>false</default>
+                <label>De R$ 4.000,00 a R$ 5.000,00</label>
+            </value>
+            <value>
+                <fullName>De R$ 5.000,00 a R$ 6.000,00</fullName>
+                <default>false</default>
+                <label>De R$ 5.000,00 a R$ 6.000,00</label>
+            </value>
+            <value>
+                <fullName>De R$ 6.000,00 a R$ 7.000,00</fullName>
+                <default>false</default>
+                <label>De R$ 6.000,00 a R$ 7.000,00</label>
+            </value>
+            <value>
+                <fullName>De R$ 7.000,00 a R$ 8.000,00</fullName>
+                <default>false</default>
+                <label>De R$ 7.000,00 a R$ 8.000,00</label>
+            </value>
+            <value>
+                <fullName>De R$ 8.000,00 a R$ 9.000,00</fullName>
+                <default>false</default>
+                <label>De R$ 8.000,00 a R$ 9.000,00</label>
+            </value>
+            <value>
+                <fullName>De R$ 9.000,00 a R$ 10.000,00</fullName>
+                <default>false</default>
+                <label>De R$ 9.000,00 a R$ 10.000,00</label>
+            </value>
+            <value>
+                <fullName>Mais de R$ 10.000,00</fullName>
+                <default>false</default>
+                <label>Mais de R$ 10.000,00</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

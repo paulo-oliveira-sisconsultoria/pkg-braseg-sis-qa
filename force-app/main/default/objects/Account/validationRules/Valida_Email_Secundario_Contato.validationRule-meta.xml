@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_Email_Secundario_Contato</fullName>
+    <active>true</active>
+    <description>Regra de validação responsavel por verificar se o valor do campo Email Secundário é valido</description>
+    <errorConditionFormula>AND(
+				IsPersonAccount,
+    NOT(ISBLANK(braseg_email_secundario__pc)),
+    NOT(REGEX(UPPER(braseg_email_secundario__pc),&quot;^[A-Z0-9._%+-/!#$%&amp;&apos;*=?^_`{|}~]+@[A-Z0-9.-]+\\.[A-Z]{2,4}$&quot;))
+)</errorConditionFormula>
+    <errorMessage>Favor inserir um e-mail valido</errorMessage>
+</ValidationRule>

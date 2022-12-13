@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FieldSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BRASEG_Account_Informacoes_Cadastrais_PF</fullName>
+    <description>Field set usado para retornar os campos da seção &quot;Informações Cadastrais&quot; no layout PF para corretor master</description>
+    <displayedFields>
+        <field>braseg_nome_master__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </displayedFields>
+    <displayedFields>
+        <field>braseg_fx_idade__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </displayedFields>
+    <label>Account Informações Cadastrais PF</label>
+</FieldSet>
