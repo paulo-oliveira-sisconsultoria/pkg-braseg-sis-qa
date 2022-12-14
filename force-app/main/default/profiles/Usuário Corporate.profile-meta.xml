@@ -2210,6 +2210,10 @@
         <layout>InsurancePolicyTransaction-BRASEG_LAYOUT_INSURANCETRANSACTION_PREV_ARCOR_SALDOS</layout>
         <recordType>InsurancePolicyTransaction.BRASEG_PREV_ARCOR_SALDOS</recordType>
     </layoutAssignments>
+    <layoutAssignments>
+        <layout>PersonAccount-BRASEG_LAYOUT_PERSON_ACCOUNT_PREV_ARCOR</layout>
+        <recordType>PersonAccount.PersonAccount</recordType>
+    </layoutAssignments>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>

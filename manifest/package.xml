@@ -16,7 +16,7 @@
 		<members>Account.braseg_fl_prod_previ__c</members>
 		<members>Account.braseg_matr_prevarcor__c</members>
 		<members>InsurancePolicy.Nome_empresa__c</members>
-		<members>InsurancePolicy.braseg_coordenador_responsavel__c</members>
+		<members>InsurancePolicy.braseg_coordenador_responsavel__c</members>git add *
 		<members>InsurancePolicy.braseg_dt_inscricao_proposta__c</members>
 		<members>InsurancePolicy.braseg_gerente_assistente__c</members>
 		<members>InsurancePolicy.braseg_gerente_banco__c</members>
@@ -103,6 +103,7 @@
 		<members>InsurancePolicyTransaction-BRASEG_LAYOUT_INSURANCETRANSACTION_PREV_ARCOR_PORTABILIDADE</members>
 		<members>InsurancePolicyTransaction-BRASEG_LAYOUT_INSURANCETRANSACTION_PREV_ARCOR_RESGATE</members>
 		<members>InsurancePolicyTransaction-BRASEG_LAYOUT_INSURANCETRANSACTION_PREV_ARCOR_SALDOS</members>
+		<members>PersonAccount-BRASEG_LAYOUT_PERSON_ACCOUNT_PREV_ARCOR</members>
 		<name>Layout</name>
 	</types>
 	<types>
