@@ -6,24 +6,8 @@
     <picklistValues>
         <picklist>Status</picklist>
         <values>
-            <fullName>Efetivado</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Estornado</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>NÃO QUITADO</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Não Efetivado</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>PAGO</fullName>
-            <default>false</default>
+            <fullName>-Nenhum--</fullName>
+            <default>true</default>
         </values>
     </picklistValues>
     <picklistValues>
